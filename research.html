@@ -11,71 +11,39 @@
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-item"><a href="homepage.html">Home</a></div>
-<div class="menu-item"><a href="biography.html">Biography</a></div>
-<div class="menu-item"><a href="professional.html">Professional</a></div>
+<div class="menu-item"><a href="home.html">Home</a></div>
 <div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="professional.html">Professional</a></div>
+<div class="menu-item"><a href="opportunities.html">Opportunities</a></div>
+<div class="menu-item"><a href="links.html">Interesting&nbsp;links</a></div>
 </td>
 <td id="layout-content">
 <h2><b>Research interests</b></h2>
-<p>Communication and computer networks, Performance modeling, Stochastic control and optimization, Queueing theory </p>
+<ul>
+<li><p>Performance analysis and optimization</p>
+</li>
+<li><p>Communication and computer networks</p>
+</li>
+<li><p>Stochastic control of queues</p>
+</li>
+<li><p>Machine learning and data analytics </p>
+</li>
+</ul>
 <h2><b>Research work</b></h2>
-<p><tt>On the tradeoff of average delay, average service cost, and average utility for single server queues with monotone policies</tt>
-We studied the tradeoff of average delay with average service cost and average utility, for single server queueing models without and with admission control. We considered continuous time and discrete time queueing models with a random environment. The tradeoff problem is studied for the class of monotone scheduling policies, i.e., scheduling policies for which the service rate is a non-decreasing function of the queue length for each environment state. The continuous time and discrete time queueing models that we considered are motivated by cross-layer models for point-to-point links with random packet arrivals and fading at slow and fast time scales. Our objective is motivated by the need to optimally tradeoff the average delay of the packets (a network layer performance measure), with the average service cost of transmitting the packets, e.g. the average power required for transmission (a physical layer performance measure), under a lower bound constraint on the average throughput. We also considered the problem of optimally trading off the average delay and average error rate of randomly arriving message symbols which are transmitted over a noisy point-to-point link. It is intuitive that to keep a queue stable under a lower bound constraint on the average utility, a minimum number of customers have to be served per unit time.  
+<h3>On the tradeoff of average delay, average service cost, and average utility for single server queues with monotone policies</h3>
+<p>We studied the tradeoff of average delay with average service cost and average utility, for single server queueing models without and with admission control. We considered continuous time and discrete time queueing models with a random environment. The tradeoff problem is studied for the class of monotone scheduling policies, i.e., scheduling policies for which the service rate is a non-decreasing function of the queue length for each environment state. The continuous time and discrete time queueing models that we considered are motivated by cross-layer models for point-to-point links with random packet arrivals and fading at slow and fast time scales. Our objective is motivated by the need to optimally tradeoff the average delay of the packets (a network layer performance measure), with the average service cost of transmitting the packets, e.g. the average power required for transmission (a physical layer performance measure), under a lower bound constraint on the average throughput. We also considered the problem of optimally trading off the average delay and average error rate of randomly arriving message symbols which are transmitted over a noisy point-to-point link. It is intuitive that to keep a queue stable under a lower bound constraint on the average utility, a minimum number of customers have to be served per unit time.  
 This in turn implies that queue stability requires a minimum average service cost expenditure.
 In this thesis, we obtain primarily an asymptotic characterization of the minimum average delay for monotone policies, subject to an upper bound constraint on the average service cost and a lower bound constraint on the average utility, in the asymptotic regime where the average service cost constraint is made arbitrarily close to the above minimum average service cost.
 The results are presented in C4 and C5.</p>
-<p><b>Project under DRDO-IISc programme on Mathematical Engineering</b> : <tt>Reliable and delay-optimal communication of bursty sources over communication channels</tt>
-An understanding of communication networks is possible only if queueing-theoretic and information-theoretic aspects of communication are considered as a whole. Classical information theory assumes that sources always have information to send and characterizes performance through metrics such as capacity regions and the asymptotic dependence of error probability on coding length. But real world sources produce information that is bursty in nature. The bursty nature of sources has two main implications : a) a bursty source uses the channel resources intermittently thus presenting a time varying channel to the other sources in the network, and b) the random nature of information production and its transmission leads to queueing at the transmitters and resource scheduling problems. In this project, we restricted ourselves to understanding the implication (b) by considering simple discrete time point-to-point channels. We studied the queueing process at the transmitter of a point-to-point channel with a refined information theoretic model, based on the channel coding error exponent, for the transmission scheme. For point-to-point channels using variable length block codes, that guarantee a constant error probability per transmission, we obtain an approximately average-delay-optimal policy, presented in C1 and T1. We also obtain analytical upper and lower bounds on the minimum average delay, presented in C3 and T2. For point-to-point channels using block coding we obtain the exponential decay rate of average error probability with average delay for both ﬁxed and variable length block coding in C2 and T3. Furthermore for fixed block length coding schemes we obtain upper and lower bounds on the tradeoff in C2. In T4 we show that using streaming codes the exponential decay rate of average error probability with average delay can be improved from what that is achieved by block coding schemes. We then consider the problem of allocating transmitter power, for channel inversion, for a slow fading point-to-point channel in T5. Approximations to the optimal allocation are obtained when the average delay is allowed to be large or equivalently when the available average transmitter power is reduced.</p>
-<h2>Publications</h2>
-<h3>Conferences</h3>
-<ul>
-<li><p>C1 : <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5291624&amp;tag=1">Average-delay optimal policies for the point-to-point channel</a> - In Proceedings of the 7th International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOPT), 2009.</p>
-</li>
-<li><p>C2 : <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6033862">Queueing delay - error probability tradeoff for point-to-point channels with fixed length block codes</a> - In Proceedings of the IEEE International Symposium on Information theory (ISIT), 2011.</p>
-</li>
-<li><p>C3 : <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6176741">Delay optimal scheduling of a discrete time batch service queue for point-to-point channel code rate selection</a> - In Proceedings of the National Conference on Communications (NCC), 2012.</p>
-</li>
-<li><p>C4 : <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6488019">Tradeoff of average power and average delay for a point-to-point link with fading</a> - In Proceedings of the National Conference on Communications (NCC), 2013.</p>
-</li>
-<li><p>C5 : <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6488024">Tradeoff of average service cost and average delay for the state dependent M/M/1 queue</a> - In Proceedings of the National Conference on Communications (NCC), 2013.</p>
-</li>
-</ul>
-<h3>Technical reports - DRDO-IISc Programme on Mathematical Engineering (available at <a href="http://www.pal.ece.iisc.ernet.in/PAM/pubs-techreports.php">http://www.pal.ece.iisc.ernet.in/PAM/pubs-techreports.php</a>)</h3>
-<ul>
-<li><p>T1 : Average-delay optimal policies for the point-to-point channel, TR-PME-2010-13, 2010</p>
-</li>
-<li><p>T2 : Bounds on the optimal queueing delay for variable rate point-to-point channels with fixed block error probability, TR-PME-2011-11, 2011.</p>
-</li>
-<li><p>T3 : Queueing delay - error probability tradeoff for point-to-point channels using block codes, TR-PME-2011-12, 2011.</p>
-</li>
-<li><p>T4 : Queueing delay - error probability tradeoff for point-to-point channels using streaming codes, TR-PME-2011-13, 2011.</p>
-</li>
-<li><p>T5 : Tradeoff of average power and average delay for slow fading point-to-point channels under reliability constraints, TR-PME-2011-14, 2011.</p>
-</li>
-</ul>
-<h2>Talks and Presentations</h2>
-<ol>
-<li><p><a href="./Presentations/wiopt.pdf">Average-delay optimal policies for the point-to-point channel</a> - WiOPT, 2009.</p>
-</li>
-<li><p><a href="./Presentations/jtg-presentation.pdf">A job scheduling problem</a> - JTG Summer School, IISc, 2010.</p>
-</li>
-<li><p><a href="./Presentations/isitpresentation.pdf">Queueing delay - error probability tradeoff for point-to-point channels with fixed length block codes</a> - ISIT, 2011.</p>
-</li>
-<li><p><a href="./Presentations/esciencepres.pdf">Reliable and delay optimal communication of bursty sources over point-to-point channels</a> - Electrical Sciences Divisional Symposium, IISc, 2011.</p>
-</li>
-<li><p><a href="./Presentations/nccpresentation.pdf">Delay optimal scheduling of a discrete time batch service queue for point-to-point channel code rate selection</a> - NCC, 2012.</p>
-</li>
-<li><p><a href="./Presentations/ncc-dt.pdf">Tradeoff of average power and average delay for a point-to-point link with fading</a> - NCC, 2013.</p>
-</li>
-<li><p><a href="./Presentations/ncc-mm1.pdf">Tradeoff of average service cost and average delay for the state dependent M/M/1 queue</a> - NCC, 2013.</p>
-</li>
-<li><p><a href="./Presentations/coll-slides.pdf">PhD Thesis Colloquium</a> - Dept. of ECE, IISc, 2013.</p>
-</li>
-</ol>
+<h3>Reliable and delay-optimal communication of bursty sources over communication channels (DRDO-IISc programme on mathematical engineering)</h3>
+<p>An understanding of communication networks is possible only if queueing-theoretic and information-theoretic aspects of communication are considered as a whole. Classical information theory assumes that sources always have information to send and characterizes performance through metrics such as capacity regions and the asymptotic dependence of error probability on coding length. But real world sources produce information that is bursty in nature. The bursty nature of sources has two main implications : a) a bursty source uses the channel resources intermittently thus presenting a time varying channel to the other sources in the network, and b) the random nature of information production and its transmission leads to queueing at the transmitters and resource scheduling problems. In this project, we restricted ourselves to understanding the implication (b) by considering simple discrete time point-to-point channels. We studied the queueing process at the transmitter of a point-to-point channel with a refined information theoretic model, based on the channel coding error exponent, for the transmission scheme. For point-to-point channels using variable length block codes, that guarantee a constant error probability per transmission, we obtain an approximately average-delay-optimal policy, presented in C1 and T1. We also obtain analytical upper and lower bounds on the minimum average delay, presented in C3 and T2. For point-to-point channels using block coding we obtain the exponential decay rate of average error probability with average delay for both ﬁxed and variable length block coding in C2 and T3. Furthermore for fixed block length coding schemes we obtain upper and lower bounds on the tradeoff in C2. In T4 we show that using streaming codes the exponential decay rate of average error probability with average delay can be improved from what that is achieved by block coding schemes. We then consider the problem of allocating transmitter power, for channel inversion, for a slow fading point-to-point channel in T5. Approximations to the optimal allocation are obtained when the average delay is allowed to be large or equivalently when the available average transmitter power is reduced.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2016-02-06 23:42:58 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2016-02-07 10:32:47 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
