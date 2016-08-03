@@ -1,0 +1,12 @@
+# jemdoc: menu{menu}{Students.html}
+
+== Instructions
+- The designated scribes should take notes on the designated days
+- Notes have to be prepared in LaTeX using the template given below
+-- [Material/scribe_template.tex LaTeX template for scribe notes]
+- Any diagrams would have to be properly made (e.g., using Inkscape, Dia)
+- The LaTeX source file and pdf has to be emailed to the instructor
+- The source and pdf has to be submitted within 1 week from the date of the lecture
+- You might be required to make corrections to the notes, in which case you will have to resubmit the notes
+- No credit for late submissions
+
