@@ -1,0 +1,13 @@
+# jemdoc: menu{menu}{lectures.html}
+
+== Lecture Schedule
+~~~
+{}{table}{LectureSchedule}
+Date | Topic | Material ||
+1st and 4th August 2016 | Kit familiarization | [Material/lab0.pdf Lab 0] ||
+8th and 11th August 2016 | DSBSC | [Material/lab1.pdf Lab 1]
+~~~
+
+
+
+
