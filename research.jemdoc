@@ -9,6 +9,16 @@ Please read on to find what all I am working on as well as related publications.
 == *Research work*
 
 ~~~
+*Stability and delay analysis for delay tolerant networks with random packet arrivals*
+
+Our research objective is to theoretically analyze the stability of queues and average delay of messages in a delay tolerant network.
+We consider a simple delay tolerant network model with the source spray and wait routing protocol without feedback for our initial analysis.
+This is work in progress. Some approximations to the average queueing delay has been obtained by interpreting the system as a M^{K}/G/N system.
+Simulation code for this work is available [Software/delayanalysis.tar.bz2 here].
+~~~
+
+~~~
+~~~
 *Bayesian quickest detection for active sensors*
 
 Active sensors use radar, ultrasound, or optical sensing to control the information content in the sequentially collected noisy data.
