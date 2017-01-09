@@ -1,0 +1,12 @@
+# jemdoc: menu{menu}{lectures.html}
+
+== Lecture Schedule
+~~~
+{}{table}{LectureSchedule}
+Date | Topic | Material ||
+09-01-17 | Introduction | [Material/lecture_1.pdf] 
+~~~
+
+
+
+
