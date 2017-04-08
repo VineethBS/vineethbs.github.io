@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="lectures.html">Lectures&nbsp;and&nbsp;Notes</a></div>
+<div class="menu-item"><a href="assignments.html">Assignments</a></div>
+<div class="menu-item"><a href="xv6_project.html" class="current">Project&nbsp;-&nbsp;xv6</a></div>
+<div class="menu-item"><a href="report_project.html">Project&nbsp;-&nbsp;Written&nbsp;Report</a></div>
+<div class="menu-item"><a href="exams.html">Exams</a></div>
+</td>
+<td id="layout-content">
+<h2>Project - Exploration of operating system concepts using xv6</h2>
+<p>For this project we will use the freely available xv6 teaching operating system.</p>
+<ul>
+<li><p>The xv6 operating system is available at <a href="https://pdos.csail.mit.edu/6.828/2016/xv6.html">https://pdos.csail.mit.edu/6.828/2016/xv6.html</a>. Please also check other pages at this location for a lot of useful information regarding xv6, installing xv6, and working with xv6 (2008 class).</p>
+</li>
+<li><p>Please download and skim through the source code listing as well as the xv6 book.</p>
+</li>
+<li><p>There are many operating system courses which use xv6 (you can use these materials to learn more about operating systems too)</p>
+<ul>
+<li><p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/">MIT OCW 6.828</a></p>
+</li>
+<li><p><a href="http://www.cse.iitd.ernet.in/~sbansal/os/">Prof. Bansal&rsquo;s course at IIT-D</a></p>
+</li>
+<li><p><a href="http://www.cse.iitm.ac.in/~chester/courses/15o_os/index.html">Prof. Riberio&rsquo;s course at IIT-M</a></p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h2>Phase 1</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>The objectives of phase 1 of the project are to get up and running with xv6.</p>
+<ul>
+<li><p>Use git to obtain the latest source files </p>
+<ul>
+<li><p>git clone git:<i></i>github.com<i>mit-pdos</i>xv6-public.git</p>
+</li>
+<li><p>Make sure that you have gcc installed</p>
+</li>
+<li><p>Make sure that you have qemu installed </p>
+</li>
+<li><p>sudo apt-get install qemu or obtain from www.qemu-project.org</p>
+</li>
+<li><p>run make qemu to start an instance of xv6 running on a qemu virtual machine</p>
+</li>
+<li><p>for Windows based systems</p>
+<ul>
+<li><p>Use VMWare or Virtualbox to install Linux, enable networking</p>
+</li>
+<li><p>install gcc and associated tools </p>
+</li>
+<li><p>install qemu</p>
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>Modifying the operating system source code</p>
+<ul>
+<li><p>Example - need to make the shell prompt say "AV224 $" instead of "$"</p>
+</li>
+<li><p>Use your favourite code editor</p>
+</li>
+<li><p>Edit sh.c</p>
+</li>
+<li><p>Do make qemu and observe the results</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>All groups should email a document consisting of</p>
+<ul>
+<li><p>The list of people in the group</p>
+</li>
+<li><p>The operating system you have chosen</p>
+</li>
+<li><p>The simple modification</p>
+</li>
+<li><p>A screenshot of the OS running on the virtual machine to Arnab by 27/03/17</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</div></div>
+<h2>Phase 2</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>The objective of phase 2 of the project are to understand how to write user programs in xv6 and system calls in xv6.</p>
+<ul>
+<li><p>Obtain the list of user programs that exist in the xv6 source code that you have cloned above. How did you find out which programs are user programs?</p>
+</li>
+<li><p>Write your own "hello" user program. The program should take one argument from command line - say arg1 and print "Hello &lt;value of arg1&gt;".</p>
+</li>
+<li><p>When making modifications to the xv6 codebase it would be good if you use git version control to add and commit changes. You can learn more about git from many sources in the internet, such as <a href="http://www-cs-students.stanford.edu/~blynn/gitmagic/">http://www-cs-students.stanford.edu/~blynn/gitmagic/</a>. Using git would give you extra credits. For each submission, you have to submit the git log when submitting your results.</p>
+</li>
+<li><p>Write your own "sleeper" user program. The program should take number of seconds as an input argument Ns from the command line. When the program is executed, it should take approximately Ns seconds to execute the program. What system calls would you use to implement this?</p>
+</li>
+</ul>
+<ul>
+<li><p>All groups should email a zip file consisting of</p>
+<ul>
+<li><p>descriptions of how you have completed the tasks above.</p>
+</li>
+<li><p>the user programs&rsquo; source code.</p>
+</li>
+<li><p>screen shots of the user programs running to Arnab by 14/04/17</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</div></div>
+<h2>Phase 3</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>The objective of phase 3 of the project is to understand process scheduling in xv6</p>
+<ul>
+<li><p>Read Chapter 5 of the xv6 book.</p>
+</li>
+<li><p>Prepare a short report on how process scheduling is done in xv6.</p>
+</li>
+<li><p>All groups should email the above report to Arnab by 21/04/17</p>
+</li>
+</ul>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-04-08 10:15:23 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
