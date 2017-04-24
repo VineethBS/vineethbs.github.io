@@ -144,9 +144,113 @@
 </li>
 </ul>
 </div></div>
+<h2>Phase 4</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>The objective of phase 4 of the project is to implement a new process scheduler in xv6 and set up a method to test performance of scheduling policies.
+This phase consists of three parts</p>
+<ul>
+<li><p>All teams should implement a pseudorandom number generator which is accessed through a syscall</p>
+<ul>
+<li><p>A simple pseudorandom number generator is XORshift. Read more about XORshift <a href="https://en.wikipedia.org/wiki/Xorshift">here</a>.</p>
+</li>
+<li><p>Implement a syscall random() that generates pseudorandom numbers. What is the minimum and maximum of the pseudorandom numbers that are generated.</p>
+</li>
+<li><p>Optional: Implement a syscall setseed(n) that sets the seed for the pseudorandom number generator</p>
+</li></ul>
+</li>
+<li><p>All teams should implement the following Random Scheduler</p>
+<ul>
+<li><p>At a time, if there are processes (P1, P2, &hellip;, Pn) the Random Scheduler should schedule one out of the n uniformly at random (please try to understand what the statement uniformly at random means before you do this!)</p>
+</li>
+<li><p>Think about whether the syscall can be used to generate random numbers in this case. If not, then what can be done?</p>
+</li></ul>
+</li>
+<li><p>All teams should implement the following user program to test the random scheduler</p>
+<ul>
+<li><p>The user program takes the following arguments as inputs from the command line</p>
+<ul>
+<li><p>Minimum time between process generation "minp_time"</p>
+</li>
+<li><p>Maximum time between process generation "maxp_time"</p>
+</li>
+<li><p>Minimum running time for a process "minp_runtime"</p>
+</li>
+<li><p>Maximum running time for a process "maxp_runtime"</p>
+</li>
+<li><p>Assume that all times are in seconds</p>
+</li>
+<li><p>Maximum number of processes "maxnum_processes"</p>
+</li></ul>
+</li>
+<li><p>Read about the Uniform distribution for random variables from <a href="https://en.wikipedia.org/wiki/Discrete_uniform_distribution">here</a></p>
+</li>
+<li><p>Read about sampling from the Uniform distribution</p>
+</li>
+<li><p>Implement a function "nextprocessbirthtime" to sample from a Uniform[minp_time, maxp_time] distribution.</p>
+</li>
+<li><p>Implement a function "processruntime" to sample from a Uniform[minp_runtime, maxp_runtime] distribution.</p>
+</li>
+<li><p>The user program does the following</p>
+<ul>
+<li><p>When the program starts it calls nextprocessbirthtime to get a time named nexttime uniformly distributed between minp_time and maxp_time</p>
+</li>
+<li><p>It also samples the duration for which the process should run using the processruntime function and stores in a variable runtime</p>
+</li>
+<li><p>The process sleeps for nexttime and after waking up it forks a child process</p>
+</li>
+<li><p>The child process will either</p>
+<ul>
+<li><p>exec the sleeper program from Phase 3 with runtime as an argument</p>
+</li>
+<li><p>or sleeps for runtime and exits</p>
+</li></ul>
+</li>
+<li><p>The user program (the parent process) will continue doing this for maxnum_processes</p>
+</li></ul>
+</li>
+<li><p>The user program should wait till the last child process has exited and then print the total time taken from the start of the user program to the time till the last child process has exited</p>
+</li>
+<li><p>Read about cprintf() and use this to demonstrate how your code is working</p>
+</li></ul>
+</li>
+<li><p>All groups should email a zip file consisting of</p>
+<ul>
+<li><p>descriptions of how you have completed the tasks above</p>
+</li>
+<li><p>the source codes for all the implementation tasks (and the git log if you have one with good descriptions for each commit)</p>
+</li>
+<li><p>to Arnab by 15/05/17</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</div></div>
+<h2>Phase 5</h2>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p>Teams must choose at least one out of the following other scheduling policies to implement</p>
+<ul>
+<li><p>Priority scheduler </p>
+</li>
+<li><p>Shortest job first (assume that job lengths are pre-announced by the process itself)</p>
+</li>
+<li><p>First come first served </p>
+</li>
+<li><p>Earliest deadline first (assume that deadlines are pre-announced by the process itself)</p>
+</li></ul>
+</li>
+<li><p>More details will be added!</p>
+</li>
+<li><p>Deadline is 15/05/17</p>
+</li>
+</ul>
+</div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-04-18 14:36:33 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-04-24 15:18:40 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
