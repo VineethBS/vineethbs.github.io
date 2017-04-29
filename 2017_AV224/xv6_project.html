@@ -220,7 +220,7 @@ This phase consists of three parts</p>
 </li>
 <li><p>the source codes for all the implementation tasks (and the git log if you have one with good descriptions for each commit)</p>
 </li>
-<li><p>to Arnab by 15/05/17</p>
+<li><p>to Arnab by 18/05/17</p>
 </li>
 </ul>
 
@@ -231,9 +231,9 @@ This phase consists of three parts</p>
 <div class="infoblock">
 <div class="blockcontent">
 <ul>
-<li><p>Teams must choose at least one out of the following other scheduling policies to implement</p>
+<li><p>Teams need to implement at least one out of the following other scheduling policies</p>
 <ul>
-<li><p>Priority scheduler </p>
+<li><p>Priority scheduler (assume that the priority of the job is set by the process itself)</p>
 </li>
 <li><p>Shortest job first (assume that job lengths are pre-announced by the process itself)</p>
 </li>
@@ -242,15 +242,85 @@ This phase consists of three parts</p>
 <li><p>Earliest deadline first (assume that deadlines are pre-announced by the process itself)</p>
 </li></ul>
 </li>
-<li><p>More details will be added!</p>
+<li><p>In order to make sure that not all teams choose the same scheduler to implement, the following rule should be followed</p>
+<ul>
+<li><p>Find out the birth month of the team member who is the youngest</p>
 </li>
-<li><p>Deadline is 15/05/17</p>
+<li><p>If the above birth month is January, May, or September the team has to implement Priority Scheduler</p>
+</li>
+<li><p>If the above birth month is February, June, or October the team has to implement Shortest Job First</p>
+</li>
+<li><p>If the above birth month is March, July, or November the team has to implement First Come First Served</p>
+</li>
+<li><p>If the above birth month is April, August, or December the team has to implement Earliest Deadline First</p>
+</li></ul>
+</li>
+<li><p>In all of the above schedulers, a process should be able to store some per process information within its process control block</p>
+<ul>
+<li><p>In the case of the priority scheduler the process needs to store the priority</p>
+</li>
+<li><p>For shortest job first, the process needs to store a job length (which is magically assumed to be known to the process)</p>
+</li>
+<li><p>For first come first served, the process needs to store the time at which the process enters the system</p>
+</li>
+<li><p>For earliest deadline first, the process needs to store the deadline</p>
+</li>
+<li><p>Each team has to modify the proc structure (which is the process control block in xv6) to store this additional information</p>
+</li>
+<li><p>Each team also has to implement a syscall - signalinfo() to update this additional information within proc for each process</p>
+</li></ul>
+</li>
+<li><p>Notes on implementation of priority scheduler</p>
+<ul>
+<li><p>For priority scheduler, proc needs to contain a priority variable and signalinfo() is used by the process to self set a priority</p>
+</li>
+<li><p>Each time, the priority scheduler should schedule the process with the smallest priority value (small means high priority).</p>
+<ul>
+<li><p>If there is more than one process with the smallest priority value then the scheduler should choose one of those processes uniformly at random</p>
+</li></ul>
+</li>
+<li><p>Discuss what kind of priority scheduler you have implemented, preemptive or non-preemptive. If you have implemented one, how would you implement the other?</p>
+</li></ul>
+</li>
+<li><p>Notes on implementation of shortest job first</p>
+<ul>
+<li><p>proc needs to contain a variable for storing the length of a job and signalinfo() is used by the process to self signal the job length (note that we are not doing estimation of job length here, unlike what we learned in class)</p>
+</li>
+<li><p>If at a time there are multiple processes with the same shortest job length, then the scheduler should choose one of those processes uniformly at random</p>
+</li></ul>
+</li>
+<li><p>Notes on implementation of first come first served</p>
+<ul>
+<li><p>proc needs to contain a variable for storing the arrival time of the process and signalinfo() is used by the process to update this variable with the (approximate) arrival time of the process into the system</p>
+</li>
+<li><p>If at a time there are multiple processes with the same arrival time, then the scheduler should choose one of those processes uniformly at random</p>
+</li></ul>
+</li>
+<li><p>Notes on implementation of earliest deadline first</p>
+<ul>
+<li><p>proc needs to contain a variable for storing the deadline and signalinfo() should be used to update this variable with a deadline value</p>
+</li>
+<li><p>If at a time there are multiple processes with the same earliest deadline, then the scheduler should choose one of those processes uniformly at randomc</p>
+</li></ul>
+</li>
+<li><p>You can use the user program that was created in Phase 4 to test your scheduler.</p>
+</li>
+<li><p>All groups should email a zip file consisting of</p>
+<ul>
+<li><p>descriptions of how you have completed the tasks above</p>
+</li>
+<li><p>the source codes for all the implementation tasks (and the git log if you have one with good descriptions for each commit)</p>
+</li>
+<li><p>to Arnab by 18/05/17</p>
+</li>
+</ul>
+
 </li>
 </ul>
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-04-24 15:18:40 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-04-29 19:56:59 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
