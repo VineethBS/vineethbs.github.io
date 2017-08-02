@@ -4,6 +4,10 @@
 ~~~
 {}{table}{LectureSchedule}
 Date | Topic | Preparation | Classnotes/References | Homework ||
+31-07-2017 | Introduction, Scope of the course | - | - | - ||
+01-08-2017 | Freq. up/down conversion, Sampling | - | Haykin, Oppenheim | - ||
+02-08-2017 | Interpolation, Decimation, QAM, Complex Baseband representation | Oppenheim | Haykin, Oppenheim | - ||
+03-08-2017 | Complex baseband representation | Haykin | Haykin
 ~~~
 
 
