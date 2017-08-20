@@ -3,12 +3,16 @@
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
-Date | Topic | Preparation | Classnotes/References | Homework ||
-31-07-2017 | Introduction, Scope of the course | - | - | - ||
-01-08-2017 | Freq. up/down conversion, Sampling | - | Haykin, Oppenheim | - ||
-02-08-2017 | Interpolation, Decimation, QAM, Complex Baseband representation | Oppenheim | Haykin, Oppenheim | - ||
-03-08-2017 | Complex baseband representation | Haykin | Haykin | - ||
-07-08-2017 | Digital modulation | Haykin | Haykin | - ||
+No.| Date | Topic | Preparation | Classnotes/References | Homework ||
+1 | 31-07-2017 | Introduction, Scope of the course | - | - | - ||
+2 | 01-08-2017 | Freq. up/down conversion, Sampling | - | Haykin, Oppenheim | - ||
+3 | 02-08-2017 | Interpolation, Decimation, QAM, Complex Baseband representation | Oppenheim | Haykin, Oppenheim | - ||
+4 | 03-08-2017 | Complex baseband representation | Haykin | Haykin | - ||
+5 | 07-08-2017 | Digital modulation | Haykin | Haykin | - ||
+6 | 10-08-2017 | Introduction to Noise | Bertsekas | Bertsekas | - ||
+7 | 14-08-2017 | Experiments, Sample space, Probability | Bertsekas | Bertsekas | - ||
+8 | 16-08-2017 | Conditional Probability | Bertsekas | Bertsekas | - ||
+9 | 17-08-2017 | Bayes rule, Inference, Independence | Bertsekas | Bertsekas | - ||
 ~~~
 
 
