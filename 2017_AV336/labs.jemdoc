@@ -3,7 +3,9 @@
 == Lab Schedule
 ~~~
 {}{table}{LectureSchedule}
-Date | Topic | Preparation | Classnotes/References | Homework ||
+No. | Date | Topic | Labsheet ||
+1 | 22-08-2017 | Matlab familiarisation, Signals | [Material/Labsheet1.pdf] ||
+2 | 29-08-2017 | LTI Systems, Convolution | [Material/Labsheet2.pdf] ||
 ~~~
 
 
