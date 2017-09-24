@@ -1,0 +1,28 @@
+# jemdoc: menu{menu}{lectures.html}
+
+== Class project
+- Students should form teams (maximum 3 students in a team)
+- Each team should pick a topic from the list given below
+- A topic can be picked up by only one team
+- Each team should then meet the instructor (schedule would be given) in order to discuss about project objectives, milestones, and a plan
+- Project submission date would be the date of the final exam for AV316
+- A project report is required to be submitted on the above date
+
+
+~~~
+{}{table}{Project list}
+No. | Project topic ||
+1 | FFT implementation in hardware (microcontrollers, FPGA, (requires study of Verilog/VHDL)) ||
+2 | Angle estimation of a source using delay between arrivals ||
+3 | Audio equalizer design ||
+4 | Noise cancelling "headphones" ||
+5 | Face extraction out of a photograph (Image processing) ||
+6 | Spectrum analyzer ||
+7 | ECG signal processing ||
+8 | Equalizer design for communication systems ||
+9 | Pulse shaping filter designs ||
+~~~
+
+
+
+
