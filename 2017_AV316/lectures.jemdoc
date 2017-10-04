@@ -29,6 +29,9 @@ No. | Date | Topic | Preparation | Classnotes/References | Homework ||
 22 | 15-09-2017 | Inverse z-transforms, Partial fraction method, 2nd Class test | Lee & Varaiya Ch. 12, 13 | Lee & Varaiya Ch. 12, 13 | - ||
 23 | 20=09-2017 | Computation of DFT, Properties of W_{N} | Oppenheim & Schafer Ch. 9 | Oppenheim & Schafer Ch. 9 | - ||
 24 | 22-09-2017 | Decimation in time, Complexity analysis | Oppenheim & Schafer Ch. 9 | Oppenheim & Schafer Ch. 9 | - ||
+25 | 25-09-2017 | Decimation in frequency | Oppenheim & Schafer Ch. 9 | Oppenheim & Schafer Ch. 9 | - ||
+26 | 28-09-2017 | Digital Filter Design - FIR filter design I | | - ||
+27 | 28-09-2017 | FIR filter design II | | - ||
 ~~~
 
 
