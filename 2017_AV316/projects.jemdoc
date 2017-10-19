@@ -8,7 +8,7 @@
 - Project submission date would be the date of the final exam for AV316
 - A project report is required to be submitted on the above date
 
-
+== Possible Project Topics
 ~~~
 {}{table}{Project list}
 No. | Project topic ||
@@ -23,6 +23,36 @@ No. | Project topic ||
 9 | Pulse shaping filter designs ||
 ~~~
 
+== Chosen projects
+~~~
+{}{table}{Projects chosen}}
+No. | Team | Project topic ||
+1 | Fenil, Naman| Angle estimation of a source using delay between arrivals ||
+2 | Manish, Souradeep, Urvashi | Audio equalizer design ||
+3 | Kiran, Vipin, Pranav | Noise cancelling "headphones" ||
+4 | Jigyasa, Bhavana, Pavani | Face extraction out of a photograph (Image processing) ||
+5 | Vikram, Arnav, Ajay | Face extraction out of a photograph (Image processing) ||
+6 | Kannan, Gayathri, Amal | Spectrum analyzer ||
+7 | Noel, Prajjwal, Mathin | Pulse shaping filter designs ||
+~~~
 
+== Initial Steps (complete by 27\/10\/2017)
+=== Pulse shaping filter design
+- Background on pulse shaping 
+-- Read "Communication Systems" by Simon Haykin, Chapter 
+-- Read [http://complextoreal.com/tutorials/tutorial-14-inter-symbol-interference-isi-and-raised-cosine-filtering/ this tutorial]
+- Implement sinc (truncated) pulse shaping in Matlab
+- Implement raised cosing pulse shaping 
+=== Angle estimation of a source, Audio equalizer design, Noise cancelling headphones
+- Background on simulation of audio sources in environments
+-- [http://www.phon.ucl.ac.uk/resource/audio3d/ A closed source software]
+-- [http://ieeexplore.ieee.org/document/7077989/ A method of simulating sound reception in a room] 
+=== Face extraction out of a photograph
+- Find datasets (for example, see \[[http://robotics.csie.ncku.edu.tw/Databases/FaceDetect_PoseEstimate.htm 1]\] or \[[https://facedetection.com/datasets/ 2]\], also collect or take group photographs to use as input data)
+- Find something interesting from [http://iris.usc.edu/Vision-Notes/bibliography/contentspeople.html here]
+=== Spectrum analyzer
+- Background on simulating spectrums (is this useful?)
+-- [http://www.spectralcalc.com/info/about.php Spectral Calc]
+-- [www.spectralcalc.com/info/CalculatingSpectra.pdf A paper about calculating spectra]
 
 
