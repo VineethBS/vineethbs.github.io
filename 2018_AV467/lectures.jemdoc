@@ -1,0 +1,8 @@
+# jemdoc: menu{menu}{lectures.html}
+
+== Lecture Schedule
+~~~
+{}{table}{LectureSchedule}
+No.| Date | Topic ||
+0 | 1-1-2018 | Course introduction, example problems ||
+~~~
