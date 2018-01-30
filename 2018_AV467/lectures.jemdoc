@@ -5,4 +5,13 @@
 {}{table}{LectureSchedule}
 No.| Date | Topic ||
 0 | 1-1-2018 | Course introduction, example problems ||
+1 | 2-1-2018 | Optimization terminology ||
+2 | 3-1-2018 | Unconstrained optimization - single variable, Necessary conditions ||
+3 | 10-1-2018 | Weierstrass's theorem, uniqueness ||
+4 | 11-1-2018 | Second order conditions for optimality ||
+5 | 12-1-2018 | Algorithms for zero finding & minima finding ||
+6 | 17-1-2018 | Unconstrained optimization - multiple variables, derivatives in n-dimensions, necessary conditions ||
+7 | 18-1-2018 | Closed and bounded sets, Weierstrass's theorem, Hessian and second order conditions ||
+8 | 19-1-2018 | Convex functions and their minima ||
+9 | 25-1-2018 | Algorithms for multiple variable unconstrained optimization - descent directions, line search ||
 ~~~
