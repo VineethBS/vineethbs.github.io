@@ -13,5 +13,11 @@ No.| Date | Topic ||
 6 | 17-1-2018 | Unconstrained optimization - multiple variables, derivatives in n-dimensions, necessary conditions ||
 7 | 18-1-2018 | Closed and bounded sets, Weierstrass's theorem, Hessian and second order conditions ||
 8 | 19-1-2018 | Convex functions and their minima ||
+  | 19-1-2018 | Class test I ||
 9 | 25-1-2018 | Algorithms for multiple variable unconstrained optimization - descent directions, line search ||
+10 | 31-1-2018 | Steepest descent, Newton's method, Modified Newton's method, Trust region method ||
+11 | 1-2-2018 | Quasi-Newton's method, Conjugate direction method ||
+12 | 2-2-2018 | Constrained optimization, Lagrange function, Class test II ||
+   | 2-2-2018 | Class test II ||
+
 ~~~
