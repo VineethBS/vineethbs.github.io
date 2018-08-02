@@ -1,9 +1,11 @@
 # jemdoc: menu{menu}{labs.html}
 
-== Lecture Schedule
+== Lab Schedule
 ~~~
 {}{table}{LectureSchedule}
-Date | Topic | Preparation | Classnotes/References | Homework ||
+Date | Topic | Labsheet ||
+1st August 2018 | Introduction to Matlab Programming | [Labsheets/labsheet_1.pdf Labsheet 1] ||
+10th August 2018 | Signals and Systems in Matlab | [Labsheets/labsheet_2.pdf Labsheet 2] ||
 ~~~
 
 
