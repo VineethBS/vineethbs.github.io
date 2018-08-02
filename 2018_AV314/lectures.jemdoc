@@ -6,11 +6,12 @@
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
-Date | Topic | Material ||
+Date | Topic | Homework/Assignments ||
 23rd July 2018 | Introduction - Fundamental problem of communication |  ||
-24th July 2018 | Introduction - Channels & Transmission mechanisms, Wireless Spectrum | ||
-25th July 2018 | Introduction - Channel models, The high level design problem | ||
-30th July 2018 | Review - Signals and LTI systems | || 
+24th July 2018 | Introduction - Channels & Transmission mechanisms, Wireless Spectrum | [Assignments/Assignment_1.pdf Assignment 1] ||
+25th July 2018 | Introduction - Channel models, The high level design problem | [Assignments/Programming_Assignment_1.pdf Programming Assignment 1],[Assignments/identity_channel.m],[Assignments/channel_1.p] ||
+1st August 2018 | Review - Signals and LTI systems | || 
+2nd August 2018 | Review - Signals and LTI systems | [Assignments/Assignment_2.pdf Assignment 2]||
 ~~~
 
 
