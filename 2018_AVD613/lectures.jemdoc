@@ -3,24 +3,7 @@
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
-No.| Date | Topic | Preparation | Classnotes/References | Homework ||
-1 | 1-08-2018 | Introduction to Noise | Bertsekas | Bertsekas | - ||
-2 | 2-08-2018 | Discrete random variables, PMF | Bertsekas | Bertsekas | - ||
-3 | 3-08-2018 | Experiments, Sample space, Probability | Bertsekas | Bertsekas | - ||
-4 | 8-08-2018 | Conditional Probability | Bertsekas | Bertsekas | - ||
-5 | 9-08-2018 | Bayes rule, Inference, Independence | Bertsekas | Bertsekas | - ||
-6 | 10-08-2018 | Independence, Conditional independence, Random variables | Bertsekas | Bertsekas | - ||
-7 | 16-08-2018 | Expectation, Mean, Variance | | | ||
-8 | 17-08-2018 | Multiple random variables, Joint PMF, Conditional PMF | | | ||
-9 | 22-08-2018 | Conditional expectation, Independence for random variables | | | ||
-10 | 23-08-2018 | Properties of Expectation, Covariance, Correlation, Tutorial | | | ||
-16 | 24-08-2018 | Continuous random variables, PDF | | | ||
-17 | 29-08-2018 | Cumulative distribution functions | | | ||
-18 | 30-08-2018 | Multiple continuous random variables, Conditioning | | | ||
-19 | 31-08-2018 | Conditional probability | | | ||
-20 | 5-09-2018 | Conditional expectation, Total Expectation Theorem, Independence | | | ||
-21 | 6-09-2018 | Baye's rule, Inference example, BER calculation | | | ||
-22 | 7-09-2018 | Problem session on random variables | | | ||
-23 | 12-09-2018 | Problem session on random variables | | | ||
-24 | 13-09-2018 | Problem session on random variables | | | ||
-25 | 14-09-2018 | Topics in random variables | | | 
+No.| Date | Topic | Reading/Assignments/Homework ||
+1 | 1-08-2018 | Introduction to Noise & Random variables | ||
+2 | 2-08-2018 | Discrete random variables, PMF | Bertsekas (Ch 2.) ||
+3 | 3-08-2018 | Expectation, Moments | Bertsekas (Ch 2.), [Assignments/Assignment_1.pdf Assignment 1] ||
