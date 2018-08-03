@@ -3,7 +3,8 @@
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
-No.| Date | Topic | Reading/Assignments/Homework ||
+No.| Date | Topic | Reading\/Assignments\/Homework ||
 1 | 1-08-2018 | Introduction to Noise & Random variables | ||
 2 | 2-08-2018 | Discrete random variables, PMF | Bertsekas (Ch 2.) ||
-3 | 3-08-2018 | Expectation, Moments | Bertsekas (Ch 2.), [Assignments/Assignment_1.pdf Assignment 1] ||
+3 | 3-08-2018 | Expectation, Moments | Bertsekas (Ch 2.),\n[Assignments/Assignment_1.pdf Assignment 1] ||
+~~~
