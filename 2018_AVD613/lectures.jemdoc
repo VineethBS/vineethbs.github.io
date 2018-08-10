@@ -7,4 +7,7 @@ No.| Date | Topic | Reading\/Assignments\/Homework ||
 1 | 1-08-2018 | Introduction to Noise & Random variables | ||
 2 | 2-08-2018 | Discrete random variables, PMF | Bertsekas (Ch 2.) ||
 3 | 3-08-2018 | Expectation, Moments | Bertsekas (Ch 2.),\n[Assignments/Assignment_1.pdf Assignment 1] ||
+4 | 8-08-2018 | Probability spaces and relationship with discrete random variables | Bertsekas (Ch 1.) ||
+5 | 9-08-2018 | Tree representation of sample space, Multiple random variables, Joint PMF, Conditional probability and PMF | Bertsekas (Ch 1,2.) ||
+6 | 10-08-2018 | Conditional probability examples, Multiplication rule, Total probability theorem, Bayes' rule | Bertsekas (Ch 1,2.)\n[Assignments/Assignment_2.pdf Assignment 2] ||
 ~~~
