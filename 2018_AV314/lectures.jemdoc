@@ -6,7 +6,7 @@
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
-Date | Topic | Homework/Assignments ||
+Date | Topic | Homework\/Assignments ||
 23rd July 2018 | Introduction - Fundamental problem of communication |  ||
 24th July 2018 | Introduction - Channels & Transmission mechanisms, Wireless Spectrum | [Assignments/Assignment_1.pdf Assignment 1] ||
 25th July 2018 | Introduction - Channel models, The high level design problem | [Assignments/Programming_Assignment_1.pdf Programming Assignment 1],\n[Assignments/identity_channel.m identity_channel.m],[Assignments/channel_1.p channel_1.p] ||
@@ -17,7 +17,7 @@ Date | Topic | Homework/Assignments ||
 8th August 2018 | Fourier transform and its properties | [Assignments/Assignment_4.pdf Assignment 4],\n[Assignments/Programming_Assignment_4.pdf Programming Assignment 4] ||
 13th August 2018 | Energy and Power spectrum, Bandwidth | ||
 14th August 2018 | Baseband communication problem, Demonstration | [Assignments/Programming_Assignment_5.pdf Programming Assignment 5],\n [Assignments/progassgn5.tar.gz Matlab files] ||
-20th August 2018 | Passband communication problem, Modulation/Demodulation | ||
+20th August 2018 | Passband communication problem, Modulation\/Demodulation | ||
 ~~~
 
 
