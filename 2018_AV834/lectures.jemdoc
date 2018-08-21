@@ -1,0 +1,11 @@
+# jemdoc: menu{menu}{lectures.html}
+
+== Lecture Schedule
+~~~
+{}{table}{LectureSchedule}
+No.| Date | Topic | Reading\/Assignments\/Homework ||
+1 | 06-08-2018 | Discrete random variables review | Bertsekas (Ch 1, 2.) ||
+2 | 13-08-2018 | Discrete random variables review | Bertsekas (Ch 1, 2.) ||
+3 | 20-08-2018 | Discrete time Markov chains | Bertsekas (Ch 7.) ||
+4 | 21-08-2018 | Discrete time Markov chains: examples, transition probability matrix | Bertsekas (Ch 7.) ||
+~~~
