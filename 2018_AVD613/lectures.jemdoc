@@ -10,4 +10,12 @@ No.| Date | Topic | Reading\/Assignments\/Homework ||
 4 | 8-08-2018 | Probability spaces and relationship with discrete random variables | Bertsekas (Ch 1.) ||
 5 | 9-08-2018 | Tree representation of sample space, Multiple random variables, Joint PMF, Conditional probability and PMF | Bertsekas (Ch 1,2.) ||
 6 | 10-08-2018 | Conditional probability examples, Multiplication rule, Total probability theorem, Bayes' rule | Bertsekas (Ch 1,2.)\n[Assignments/Assignment_2.pdf Assignment 2] ||
+7 | 16-08-2018 | Independence of events and random variables, Bayes rule and inference | ||
+8 | 17-08-2018 | Conditional independence | ||
+  | 23-08-2018 | Problem solving session | ||
+  | 24-08-2018 | Problem solving session | ||
+9 | 30-08-2018 | Conditional expectation, conditional independence, Covariance, Correlation | ||
+10 | 31-08-2018 | Midterm QP discussion, Continuous random variables, PDFs | Bertsekas (Ch 3.) ||
+11 | 5-09-2018 | Continuous random variables, CDFs, Gaussian random variables and error probability calculation | ||
+12 | 6-09-2018 | Joint PDFs, Marginal PDFs, Conditional PDFs | ||
 ~~~
