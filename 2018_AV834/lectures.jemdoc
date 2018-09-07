@@ -8,4 +8,7 @@ No.| Date | Topic | Reading\/Assignments\/Homework ||
 2 | 13-08-2018 | Discrete random variables review | Bertsekas (Ch 1, 2.) ||
 3 | 20-08-2018 | Discrete time Markov chains | Bertsekas (Ch 7.) ||
 4 | 21-08-2018 | Discrete time Markov chains: examples, transition probability matrix | Bertsekas (Ch 7.) ||
+5 | 27-08-2018 | Markov chains with control | Class notes ||
+6 | 29-08-2018 | Control policies, Reward, Markov decision processes, Optimization criteria | Class Notes ||
+  | 03-09-2018 | Midterm I | ||
 ~~~
