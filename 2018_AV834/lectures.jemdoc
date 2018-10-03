@@ -11,4 +11,12 @@ No.| Date | Topic | Reading\/Assignments\/Homework ||
 5 | 27-08-2018 | Markov chains with control | Class notes ||
 6 | 29-08-2018 | Control policies, Reward, Markov decision processes, Optimization criteria | Class Notes ||
   | 03-09-2018 | Midterm I | ||
+7 | 10-09-2018 | Introduction to dynamic programming | ||
+8 | 17-09-2018 | Machine repair problem | ||
+  | 19-09-2018 | Dalai - presentation of example problem | ||
+  | 20-09-2018 | Binoy - presentation of example problem | ||
+  | 20-09-2018 | Programming assignment discussion | ||
+9 | 27-09-2018 | Infinite horizon problems - problems with absorbing state and value iteration | ||
+10 | 03-10-2018 | Discounted reward problems | ||
+   | 03-10-2018 | Dalai - discussion of David Silver's lecture 1 | ||
 ~~~
