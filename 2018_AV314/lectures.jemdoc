@@ -29,12 +29,15 @@ Date | Topic | Homework\/Assignments ||
 4th September 2018 | FM demodulation | [Assignments/Programming_Assignment_7.pdf] \n [Assignments/progassgn7.tar.gz Matlab files] ||
 5th September 2018 | Superheterodyne receiver | [Assignments/Assignment_6.pdf Assignment 6] ||
 10th September 2018 | Problem review session | [Assignments/Programming_Assignment_8.pdf Programming Assignment 8]\n [Assignments/progassgn8.tar.gz Matlab files]||
-17th September 2018 | Problem review session, Modulation using non-linearities, Weaver's SSB modulator | | ||
-19th September 2018 | Balanced modulators, Switching modulators, Squaring synchronizers | | ||
-24th September 2018 | Direct and Indirect FM, Armstrong's method, Balanced FM demodulator, Pulse averaging detector | | ||
-25th September 2018 | Phase locked loops - basic structure | | ||
-26th September 2018 | Phase locked loops - linearized model and analysis | | ||
-3rd October 2018 | Phase locked loops - types and orders, steady state and transient response | | ||
+17th September 2018 | Problem review session, Modulation using non-linearities, Weaver's SSB modulator | ||
+19th September 2018 | Balanced modulators, Switching modulators, Squaring synchronizers | ||
+24th September 2018 | Direct and Indirect FM, Armstrong's method, Balanced FM demodulator, Pulse averaging detector | ||
+25th September 2018 | Phase locked loops - basic structure | ||
+26th September 2018 | Phase locked loops - linearized model and analysis | ||
+3rd October 2018 | Phase locked loops - types and orders, steady state and transient response | ||
+9th October 2018 | Phase locked loops - design examples and demonstration | [Assignments/Assignment_7.pdf Assignment 7] ||
+10th October 2018 | Phase locked loops - demonstration and FM demodulation | [Assignments/Programming_Assignment_9.pdf Programming Assignment 9]\n[Assignments/PLL_Files.tar.gz Matlab files for PLL] ||
+11th October 2018 | Problem review session | ||
 ~~~
 
 
