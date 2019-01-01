@@ -1,0 +1,21 @@
+# jemdoc: menu{menu}{lectures.html}
+
+= Communication Systems II (AV324) & Communication Systems Lab (AV343)
+
+~~~
+== Textbook and References
+- [http://www.ece.ucsb.edu/wcsl/Publications/intro_comm_systems_madhow_jan2014b.pdf Prof. Upamanyu Madhow's Introduction to Communication Systems]
+- Prof. Upamanyu Madhow's Fundamentals of Digital Communication
+- [https://archive.org/details/PrinciplesOfCommunicationSystemsByTaubAndSchilling/page/n0 Taub and Schilling's Principles of Communication Systems]
+~~~
+
+== Lecture Schedule
+~~~
+{}{table}{LectureSchedule}
+No | Date | Topic | Homework\/Assignments ||
+1 | 02-01-2019 | Introduction and Course Review | ||
+~~~
+
+
+
+
