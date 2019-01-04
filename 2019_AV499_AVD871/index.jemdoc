@@ -3,15 +3,24 @@
 = Applied Markov decision processes & Reinforcement Learning (AV499 & AVD871)
 
 ~~~
-== 03-01-2019 - Evaluation (to be discussed)
+== 04-01-2019 - Programming Assignment 1
+- Check lectures page for the assignment sheet
+- Due date is 11-01-2019
+- Please do the assignment in Matlab/Python
+- Upload a zip file containing the code/source file and a document (text file) showing the computed shortest path to the google drive folder
+- Please name the zip file as SCCODE_Name (example SC1000_Vineeth)
+~~~
+
+~~~
+== 04-01-2019 - Evaluation (changed after discussion in class)
 - AV499 and AVD871 question papers will be different
 - Quiz 1 - 15 marks
 - Quiz 2 - 15 marks
 - Final written exam - 50 marks
 - Assignments (programming + theory) - 10 marks
 - Classtests - 10 marks
-- Course project - 50 marks
-- Final exam marks will be the average of course project and written exam marks
+- Course project - 20 marks
+- Total internal marks of 20  will be the average of Course project and the sum of assignment and classtest marks
 ~~~
 
 ~~~
