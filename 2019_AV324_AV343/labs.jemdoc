@@ -13,12 +13,17 @@
 - Oppenheim and Schafer - Discrete (digital) signal processing
 ~~~
 
+~~~
+== Template file for the lab report
+- The latex file you should use for preparing the lab report can be downloaded from [Templates/lab_template.tex here].
+~~~
+
 
 == Lab Schedule
 ~~~
 {}{table}{LabSchedule}
-No | Date | Topic | Reading\/Labsheet ||
-1 | 03-01-2019 | Signals and Systems | [Labsheets/av343_labsheet1.pdf Labsheet 1] ||
+No | Date | Topic | Reading\/Labsheet | Questions in LaTeX  ||
+1 | 10-01-2019 | Signals and Systems | [Labsheets/av343_labsheet1.pdf Labsheet 1] | [Templates/av343_labsheet1_questions.tex Labsheet 1] ||
 ~~~
 
 
