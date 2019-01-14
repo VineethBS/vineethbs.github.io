@@ -12,6 +12,10 @@
 No | Date | Topic | Homework\/Assignments ||
 1 | 03-01-2019 | Introduction and Course Review | ||
 2 | 04-01-2019 | Definition of System, Example of an optimization problem, Bellman's optimality criterion | [ProgrammingAssignments/progassgn_1.pdf Programming Assignment 1] ||
+3 | 07-01-2019 | Definition of Horizon, Optimization problem, Shortest path problem, Dijkstra's algorithm | ||
+4 | 10-01-2019 | Optimization problem, illustrative introduction to dynamic programming | ||
+5 | 11-01-2019 | Dynamic programming algorithm, Complexity of dynamic programming | ||
+6 | 14-01-2019 | Dynamic programming examples | ||
 ~~~
 
 
