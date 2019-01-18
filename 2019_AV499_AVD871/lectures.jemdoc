@@ -4,6 +4,15 @@
 
 ~~~
 == Textbook and References
+- *Richard S. Sutton and Andrew G. Barto. Reinforcement learning: An introduction. MIT press, 2018.*
+- Dimitri P. Bertsekas, Dynamic programming and optimal control. Vols. I and II, Athena scientific, 2005.
+- Sheldon M. Ross. Applied probability models with optimization applications. Courier Corporation, 2013.
+- Sheldon M. Ross. Introduction to stochastic dynamic programming. Academic press, 2014.
+- Csaba Szepesvári, Algorithms for Reinforcement Learning, Morgan and Claypool, 2010.
+- Dimitri P. Bertsekas, Reinforcement learning and Optimal Control, Athena Scientific, 2019.
+- Dimitri P. Bertsekas and John Tsitsiklis - Introduction to Probability
+- Bruce Hajek - An exploration of random processes for engineers
+- Anurag Kumar - Discrete time stochatic processes (lecture notes for an engineering curriculum)
 ~~~
 
 == Lecture Schedule
@@ -16,6 +25,7 @@ No | Date | Topic | Homework\/Assignments ||
 4 | 10-01-2019 | Optimization problem, illustrative introduction to dynamic programming | ||
 5 | 11-01-2019 | Dynamic programming algorithm, Complexity of dynamic programming | ||
 6 | 14-01-2019 | Dynamic programming examples | ||
+7 | 18-01-2019 | Generalizing the system evolution function | ||
 ~~~
 
 
