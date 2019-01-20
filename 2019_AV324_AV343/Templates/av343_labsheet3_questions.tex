@@ -1,0 +1,77 @@
+\myhrule
+For this labsheet, whereever you are asked to plot the magnitude response of filters, you should plot the magnitude normalized with the gain at discrete frequency being $0$ in dB scale.
+\begin{enumerate}
+\item Given the following requirements on a filter in continuous time, manually derive the desired ideal frequency response $H_{d}(e^{j\omega})$ in the discrete frequency domain.
+  \begin{itemize}
+  \item sampling frequency = $8 kHz$, and,
+  \item pass all signals below $1 kHz$ with a gain of 1, and,
+  \item cutoff all signals above $1 kHz$ (or the cutoff frequency is $\Omega_{c} = 1 kHz$).
+  \end{itemize}
+  Also derive the corresponding impulse response $h_{d}[n]$.
+  \begin{itemize}
+  \item In general, what is the ideal lowpass filter response $H_{d}(e^{j\omega})$ that would also have linear phase for a cutoff frequency of $\omega_{c}$?
+  \item What is the corresponding impulse response $h_{d}[n]$?
+  \end{itemize}
+
+\item Suppose one desires to design the following low pass filter (this is a specification of the desired response $H_{d}(e^{j\omega})$).
+  \begin{eqnarray*}
+    |H_{d}(e^{j\omega})| \text{ is }
+    \begin{cases}
+      \in [1 - 0.01, 1 + 0.01], \text{ for } 0 \leq |\omega| \leq 0.25 \pi, \\
+      \in [0, \delta], \text{ for } |\omega| \geq 0.3\pi.
+    \end{cases}
+  \end{eqnarray*}
+  The transition band is $(0.25\pi, 0.3\pi)$.
+  \begin{enumerate}
+  \item Obtain a complete specification of $H_{d}(e^{j\omega})$ so that we have a filter with linear phase response.
+  \item Design a filter which meets the above specifications using either Hamming, Hanning, or Blackman windows separately for the cases $\delta = 0.01$ and $\delta = 0.001$. Use the width of the main lobe and the peak approximation error in the table containing the main lobe width and peak approximation error that we had discussed in class.
+  \item For each $\delta$, plot the desired magnitude plot along with the magnitude plot of the filters that you have designed and comment on the differences. Also check whether the designed filters have linear phase responses.
+  \item Repeat the filter design task using the Kaiser window method. Please use the design formulae (formulae for $\beta$ and $M$) that we have studied in class.
+  \item Study what the Matlab inbuilt function ``fir1'' does. 
+  \end{enumerate}
+\item Generate a signal $x[n] = cos(0.1\pi n) + 2 cos(0.5\pi n)$ for $n \in \brac{0, 1, \dots, 5M^{*}}$ where $M^*$ is the maximum length of the filters that you have designed above. For each of the filters that you have designed above, obtain the signal $y[n]$ which results when $x[n]$ is passed through the filter. Plot $x[n]$ and $y[n]$ for all cases. Also plot their DTFT magnitudes, i.e., $|X(e^{j\omega})|$ and $|Y(e^{j\omega})|$ using DFT. What do you observe?
+
+\item Suppose one desires to design the following low pass filter (this is a specification of the desired response $H_{d}(e^{j\omega})$.
+  \begin{eqnarray*}
+    |H_{d}(e^{j\omega})| \text{ is }
+    \begin{cases}
+      \in [1 - 0.01, 1 + 0.01], \text{ for } 0 \leq |\omega| \leq 0.25 \pi, \\
+      \in [0, \delta], \text{ for } |\omega| > 0.3\pi.
+    \end{cases}
+  \end{eqnarray*}
+  \begin{enumerate}
+  \item Obtain a complete specification of $H_{d}(e^{j\omega})$ so that we have a filter with linear phase response
+  \item Design filters which meets the above specifications using the frequency sampling method for the cases $\delta = 0.01$ and $\delta = 0.001$.
+  \item Plot the desired magnitude plot along with the magnitude plot of the filter that you have designed and comment on the differences.
+  \item For each $\delta$ above, plot separate magnitude plots of the filters that you have obtain if you apply circular shifts of $M/4$ and $M/2$ to the $h[n]$. What do you observe?
+  \item Suppose we need to design a filter with $\delta = 0.001$. Using two frequency samples in a ``transition band'' is it possible to obtain a $\delta = 0.001$? What should be the values of those two frequency samples? Is there a tradeoff between $\delta$ and $M$?
+  \end{enumerate}
+\item Study what the Matlab inbuilt functions ``fir2'' and ``firls'' do. Go through the design examples which are shown in Matlab's help for these two functions.
+\item Study what the Matlab inbuilt function  ``firpm'' (or ``remez'') does. Use firpm to design a linear phase equiripple filter meeting the requirements in Task 1.
+\item Matlab also provides filter design tools such as ``filterbuilder'' and ``fdatool''. Explore how these tools can be used to design FIR filters.
+
+\item Filter design using Butterworth analog filter design and impulse invariance: Suppose we have the following desired requirements $H_{d}(e^{j\omega})$ on the magnitude of digital filter:
+  \begin{enumerate}
+  \item Passband edge = $0.2\pi$
+  \item Stopband edge (starting freq) = $0.4\pi$
+  \item Magnitude gain in passband to be $\in [1, 1 - \delta_{p}]$, where $\delta_{p} = 0.05$
+  \item Magnitude gain in stopband to be $\in [0, \delta_{s}$, where $\delta_{s} = 0.001$
+  \end{enumerate}
+  Note that no constraints are being put on the phase response of the filter here. In the design of the filter, explore how you would use the ``buttord'' inbuilt function in Matlab.
+  \begin{enumerate}
+  \item Assuming that there is no aliasing and that $H_{d}(e^{j\omega})$ has been obtained from sampling of an analog signal $h_{a}(t)$ uniformly at rate $\frac{1}{T}$, what is $H_{a}(j\Omega)$ (the CTFT of $h_{a}(t)$)?.
+  \item We note that $H_{a}(j\Omega)$ can be interpreted as the specification for the design of an analog filter. Obtain a Butterworth filter that is a good approximation to $H_{a}(j\Omega)$.
+  \item Write down the location of the poles of the analog Butterworth filter $H_{a}(s)$? 
+  \item Under the impulse invariance condition, where are these poles mapped to in the $z$-plane. Write down the locations of the poles.
+  \item Plot the frequency response of the filter that you have obtained.
+  \end{enumerate}
+  Exploration:
+  \begin{enumerate}
+  \item Does the design depend on the actual value of $T$? Is there any change in the frequency response of the realized digital filter if you use different values of $T$?
+  \item Repeat the design process but by not compensating for aliasing in the stopband attenuation. How much is stopband attenuation in the final design? Does it meet the given requirements on $H_{d}(e^{j\omega})$?
+  \item Using internet resources or Matlab help, find out what the inbuilt function ``butter'' does. How will you use ``butter'' for the design problem above?
+  \item Using internet resources or Matlab help, find out what the inbuilt function ``filter'' does. Suppose $x[n] = 2 cos(0.1\pi n) + 5 cos(0.6\pi n)$ for $n \in \brac{0,\dots, 499}$. Simulate what happens when the filter that you have designed above is used to filter $x[n]$ in order to obtain $y[n]$. Plot $y[n]$ as well as its DTFT.
+  \end{enumerate}
+\item Repeat the above design using the bilinear transformation. Plot the frequency response of the filter that you have obtained.
+\end{enumerate}
+
