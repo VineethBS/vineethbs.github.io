@@ -18,6 +18,12 @@
 - The latex file you should use for preparing the lab report can be downloaded from [Templates/lab_template.tex here].
 ~~~
 
+== Mini projects and Main project 
+~~~
+{}{table}{LabSchedule}
+No | Due Date | Project Details ||
+1 | 10-02-2019 | [Projects/miniproject_1.pdf Mini-project 1] ||
+~~~
 
 == Lab Schedule
 ~~~
@@ -25,7 +31,7 @@
 No | Date | Topic | Reading\/Labsheet | Questions in LaTeX  ||
 1 | 10,11-01-2019 | Signals and Systems | [Labsheets/av343_labsheet1.pdf Labsheet 1] | [Templates/av343_labsheet1_questions.tex Labsheet 1] ||
 2 | 17,18-01-2019 | Spectral analysis | [Labsheets/av343_labsheet2.pdf Labsheet 2] | [Templates/av343_labsheet2_questions.tex Labsheet 2] ||
-
+3 | 24,25-01-2019 | Filter design | [Labsheets/av343_labsheet3.pdf Labsheet 3] | [Templates/av343_labsheet3_questions.tex Labsheet 3] ||
 ~~~
 
 
