@@ -12,7 +12,7 @@
 - Dimitri P. Bertsekas, Reinforcement learning and Optimal Control, Athena Scientific, 2019.
 - Dimitri P. Bertsekas and John Tsitsiklis - Introduction to Probability
 - Bruce Hajek - An exploration of random processes for engineers
-- Anurag Kumar - Discrete time stochatic processes (lecture notes for an engineering curriculum)
+- Anurag Kumar - Discrete time stochastic processes (lecture notes for an engineering curriculum)
 ~~~
 
 == Lecture Schedule
@@ -29,7 +29,7 @@ No | Date | Topic | Homework\/Assignments ||
 8 | 19-01-2019 | System evolution using conditional probabilities | [ProgrammingAssignments/progassgn_2.pdf Programming Assignment 2] \n [Assignments/Assignment_1.pdf Assignment 1]||
 9 | 19-01-2019 | Markov property | [Notes/Note-19012019.pdf Note] ||
 10 | 24-01-2019 | Examples of Markov chains, Markov chains with actions | ||
-11 | 25-01-2019 | Markov chains with actions, evolution, random rewards | ||
+11 | 25-01-2019 | Markov chains with actions, evolution, random rewards | [ProgrammingAssignments/progassgn_3.pdf Programming Assignment 3] ||
 ~~~
 
 
