@@ -22,7 +22,7 @@
 ~~~
 {}{table}{LabSchedule}
 No | Due Date | Project Details ||
-1 | 17-02-2019 | [Projects/miniproject_1.pdf Mini-project 1] ||
+1 | 24-02-2019 | [Projects/miniproject_1.pdf Mini-project 1] ||
 ~~~
 
 == Lab Schedule
@@ -35,6 +35,7 @@ No | Date | Topic | Reading\/Labsheet | Questions in LaTeX  ||
   | 24-01-2019 | Filter design review class | ||
 3 | 24,25-01-2019 | Filter design | [Labsheets/av343_labsheet3.pdf Labsheet 3] | [Templates/av343_labsheet3_questions.tex Labsheet 3] ||
   | 31-01,01-02-2019 | Filter design | || 
+4 | 7,8-02-2019 | Introduction to GNU Radio, DSBSC in GNU Radio | [Labsheets/av343_labsheet4.pdf Labsheet 4] \n [Labsheets/am-mod-demod.grc grc file] | ||
 ~~~
 
 
