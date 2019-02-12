@@ -2,6 +2,12 @@
 
 = Communication Systems II (AV324) & Communication Systems Lab (AV343)
 ~~~
+== 12-02-2019 - Baseband, BASK, and BPSK demonstration added
+- Please download from [Demonstrations/BASK_BPSK_Simulation.tar.gz here]
+- We will use this for the lecture on 13-02-2019
+~~~
+
+~~~
 == 07-02-2019 - Labsheet 5 has been uploaded
 - Please download from [Labsheets/av343_labsheet5.pdf here]
 - Note that you have to install GNU Radio with RTL-SDR support before coming to lab
