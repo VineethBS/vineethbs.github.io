@@ -1,0 +1,37 @@
+\begin{enumerate}
+\item Installation of GNU Radio (nothing to be put in the report for this task)
+    \begin{enumerate}
+    \item Please note that installation should be done before coming for the lab session
+    \item Please use the instructions at 
+    \begin{itemize}
+        \item https://wiki.gnuradio.org/index.php/InstallingGR, 
+        \item https://wiki.gnuradio.org/index.php/UbuntuInstall
+    \end{itemize}
+    \item Install GNURadio version $\geq 3.7$
+    \item You can also try out https://wiki.gnuradio.org/index.php/GNURadioLiveDVD
+    \item We will be using RTL-SDR for some of the labs in the future (see https://www.rtl-sdr.com/). You should make sure that your GNU Radio installation is able to support RTL-SDR.
+    \end{enumerate}
+\item Familiarization with some basic blocks in GNU Radio companion.
+    \begin{enumerate}
+    \item Read through the introduction (nothing to be put in the report for this task)
+    \begin{itemize}
+    \item https://wiki.gnuradio.org/index.php/Guided\_Tutorial\_Introduction
+    \end{itemize}
+    \item Familiarize yourself with creating flow graphs by working through the tutorial 
+    \begin{itemize}
+    \item https://wiki.gnuradio.org/index.php/Guided\_Tutorial\_GRC
+    \item You should include the screenshots of the flowgraphs which you have made in the report, along with any comments or doubts that you had when working through the tutorial.
+    \end{itemize}
+    \end{enumerate}
+\item Amplitude modulation and demodulation in GNU Radio.
+    \begin{enumerate}
+    \item You should use the am-mod-demod.grc file on the lab webpage for doing this task
+    \item Your first task is to map the flow diagram in the grc file to the usual block diagram for DSBSC modulation and demodulation. Write down what each block in the flow diagram models.
+    \item Assume that the \emph{source signal} cannot be changed as well as the noise amplitude.
+    \item Write down what is expected at the output of the system. How will you test if the expected output is obtained at the output?
+    \item Note that there are some missing blocks as well as some wrong values in the am-mod-demod.grc file because of which it cannot be run in GRC, or you wouldn't get the right output. Your task is to fix this. Add required blocks and correct the wrong values so that the source signal can be send through and received.
+    \item Your report should contain the spectrum plots of the input signal and the output from the system showing that you have fixed the problems. You should also put the grc file along with the report in a zip file and submit.
+    \item (Optional task) Modify the grc file so that you are able to amplitude modulate and send an audio file that you have recorded/downloaded off from the internet. What are the parameters that you need to modify so that this can be done.
+    \end{enumerate}
+\item Please explore the use of GRC using online resources. Consult documentation for authoritative help on any of the blocks.
+\end{enumerate}
