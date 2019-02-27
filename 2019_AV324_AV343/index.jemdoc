@@ -1,6 +1,18 @@
 # jemdoc: menu{menu}{index.html}
 
 = Communication Systems II (AV324) & Communication Systems Lab (AV343)
+
+~~~
+== 27-02-2019 - Labsheets for 6th lab uploaded
+- Please note that there are two labsheets to be used for the 6th lab. 
+- Please download the labsheets and the associated files from [Labsheets/av343_labsheet6_1.pdf Labsheet 6 (Part 1)], [Labsheets/av343_labsheet6_2.pdf Labsheet 6 (Part 2)], [Labsheets/channel_modelling.zip Files for Part 1], [Labsheets/bask_bpsk_moddemod.zip Files for Part 2].
+~~~
+
+~~~
+== 26-02-2019 - Classtest 2 announced
+- Classtest 2 will be held on 7th of March 2019.
+~~~
+
 ~~~
 == 12-02-2019 - Baseband, BASK, and BPSK demonstration added
 - Please download from [Demonstrations/BASK_BPSK_Simulation.tar.gz here]
