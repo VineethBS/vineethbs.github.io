@@ -1,6 +1,12 @@
 # jemdoc: menu{menu}{index.html}
 
 = Applied Markov decision processes & Reinforcement Learning (AV499 & AVD871)
+
+~~~
+== 03-03-2019 - Links added to project page on final paper options for Bandits
+- Addtional resources have been added to the projects page for Bandits 
+~~~
+
 ~~~
 == 03-03-2019 - Programming assignments 4,5 and assignment 2 uploaded
 - Please download programming assignments for [ProgrammingAssignments/progassgn_4.pdf finite horizon MDP] and [ProgrammingAssignments/progassgn_5.pdf value iteration for infinite horizon MDP]

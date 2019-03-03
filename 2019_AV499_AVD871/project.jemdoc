@@ -32,6 +32,17 @@
 - [https://skymind.ai/wiki/deep-reinforcement-learning Look at the references towards the end of the page]
 ~~~
 
+== Research paper options - Bandits
+~~~
+- This is another collection of papers and webpages which can be used for presentations related to Bandits
+- [https://docs.google.com/document/d/e/2PACX-1vQmsr1eO29D65TDIBueq4TW_D47tQyCxvCkBUwYzcClbBuA1dqXEYdUWud9eVqvWM17aF2DZVjF3C2R/pub Papers on Bandits]
+- [http://www.cse.iitm.ac.in/~prashla/cs6046.html IIT-M course on Bandits]
+- [http://banditalgs.com/ A blog on algorithm for bandits]
+- [https://cseweb.ucsd.edu/~kamalika/teaching/CSE291W11/index.html Another course]
+- [http://imagine.enpc.fr/~audibert/Bandit_small.pdf Tutorial]
+- [https://sites.google.com/site/banditstutorial/ Tutorial]
+~~~
+
 == Options for software
 ~~~
 - Please pick a software and discuss with the instructor
