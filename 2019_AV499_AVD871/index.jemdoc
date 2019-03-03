@@ -1,6 +1,11 @@
 # jemdoc: menu{menu}{index.html}
 
 = Applied Markov decision processes & Reinforcement Learning (AV499 & AVD871)
+~~~
+== 03-03-2019 - Programming assignments 4,5 and assignment 2 uploaded
+- Please download programming assignments for [ProgrammingAssignments/progassgn_4.pdf finite horizon MDP] and [ProgrammingAssignments/progassgn_5.pdf value iteration for infinite horizon MDP]
+- Assignment 2 is available [Assignments/Assignment_2.pdf here]
+~~~
 
 ~~~
 == 17-02-2019 - Initial announcement of final project
