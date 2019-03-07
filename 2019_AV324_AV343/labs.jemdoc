@@ -38,6 +38,7 @@ No | Date | Topic | Reading\/Labsheet | Questions in LaTeX  ||
 4 | 7,8-02-2019 | Introduction to GNU Radio, DSBSC in GNU Radio | [Labsheets/av343_labsheet4.pdf Labsheet 4] \n [Labsheets/am-mod-demod.grc grc file] | [Templates/av343_labsheet4_questions.tex Labsheet 4] ||
 5 | 21,22-02-2019 | GNU Radio, RTL-SDR, and FM | [Labsheets/av343_labsheet5.pdf Labsheet 5] \n [Labsheets/FM-Demonstration.zip FM files] | [Templates/av343_labsheet5_questions.tex Labsheet 5] ||
 6 | 28-02-2019,6-03-2019 | Channel Modelling, Digital Communication over Baseband and Passband channels | [Labsheets/av343_labsheet6_1.pdf Labsheet 6 (Part 1)] \n [Labsheets/av343_labsheet6_2.pdf Labsheet 6 (Part 2)] \n [Labsheets/channel_modelling.zip Files for Part 1] \n [Labsheets/bask_bpsk_moddemod.zip Files for Part 2] |  ||
+7 | 7-03-2019,8-03-2019 | Error performance of digital Communication over baseband and passband channels | [Labsheets/av343_labsheet7.pdf Labsheet 7] |  ||
 ~~~
 
 
