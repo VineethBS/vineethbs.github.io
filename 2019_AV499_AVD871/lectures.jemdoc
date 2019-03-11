@@ -43,6 +43,9 @@ No | Date | Topic | Homework\/Assignments ||
 20 | 01-03-2019 | Solution of infinite horizon MDP - the optimality equation, Value iteration | [ProgrammingAssignments/progassgn_5.pdf Programming Assignment 5]||
 21 | 07-03-2019 | Convergence of value iteration, Policy improvement | ||
 22 | 08-03-2019 | Policy iteration, convergence of policy iteration | ||
+23 | 09-03-2019 | Introduction to RL, k-armed Bandit problems, regret, exploration vs exploitation | ||
+24 | 09-03-2019 | Bandit algorithms - greedy, \epsilon-greedy, soft-max, incremental implementation | ||
+25 | 11-03-2019 | Bandit algorithms - UCB, introduction to Bayesian bandits, Contextual and non-stationary bandits | ||
 ~~~
 
 
