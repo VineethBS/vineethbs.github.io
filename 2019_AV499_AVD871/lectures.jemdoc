@@ -45,7 +45,8 @@ No | Date | Topic | Homework\/Assignments ||
 22 | 08-03-2019 | Policy iteration, convergence of policy iteration | [ProgrammingAssignments/progassgn_6.pdf Programming Assignment 6]\n [ProgrammingAssignments/policy_iteration_demonstration.m Policy iteration example]||
 23 | 09-03-2019 | Introduction to RL, k-armed Bandit problems, regret, exploration vs exploitation | [ProgrammingAssignments/progassgn_7.pdf Programming Assignment 7]\n [ProgrammingAssignments/simulate_system.m System], [ProgrammingAssignments/epsilon_greedy_agent.m Agent]||
 24 | 09-03-2019 | Bandit algorithms - greedy, epsilon-greedy, soft-max, incremental implementation | ||
-25 | 11-03-2019 | Bandit algorithms - UCB, introduction to Bayesian bandits, Contextual and non-stationary bandits | ||
+25 | 11-03-2019 | Bandit algorithms - UCB | ||
+26 | 15-03-2019 | Introduction to Bayesian bandits, Contextual bandits | ||
 ~~~
 
 
