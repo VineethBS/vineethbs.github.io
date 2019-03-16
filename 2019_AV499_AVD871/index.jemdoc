@@ -2,6 +2,11 @@
 
 = Applied Markov decision processes & Reinforcement Learning (AV499 & AVD871)
 ~~~
+== 16-03-2019 - Tutorial added
+- Please download the tutorial from [Tutorials/AV499-Tutorial2.pdf here]
+~~~
+
+~~~
 == 13-03-2019 - Programming assignments 6 and 7 added
 - Please download programming assignments for [ProgrammingAssignments/progassgn_6.pdf policy iteration] and [ProgrammingAssignments/progassgn_7.pdf multiarmed bandits].
 - These are not required to be submitted; but doing these would be useful for understanding these portions for Quiz 2
