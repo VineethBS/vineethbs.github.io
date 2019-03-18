@@ -47,7 +47,8 @@ No | Date | Topic | Homework\/Assignments ||
 24 | 09-03-2019 | Bandit algorithms - greedy, epsilon-greedy, soft-max, incremental implementation | ||
 25 | 11-03-2019 | Bandit algorithms - UCB | ||
 26 | 15-03-2019 | Introduction to Bayesian bandits, Contextual bandits | ||
-   | 16-03-2019 | Tutorial | [Tutorials/AV499-Tutorial2.pdf Tutorial 2] ||
+   | 16-03-2019 | Tutorial | [Tutorials/AV499-Tutorial2.pdf Tutorial 2]\n [Tutorials/AV499-Tutorial-Bandits.pdf Questions on Bandits] ||
+27 | 18-03-2019 | The full reinforcement learning problem, Monte carlo evaluation | ||
 ~~~
 
 
