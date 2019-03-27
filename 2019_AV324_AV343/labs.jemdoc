@@ -40,7 +40,7 @@ No | Date | Topic | Reading\/Labsheet | Questions in LaTeX  ||
 5 | 21,22-02-2019 | GNU Radio, RTL-SDR, and FM | [Labsheets/av343_labsheet5.pdf Labsheet 5] \n [Labsheets/FM-Demonstration.zip FM files] | [Templates/av343_labsheet5_questions.tex Labsheet 5] ||
 6 | 28-02-2019,6-03-2019 | Channel Modelling, Digital Communication over Baseband and Passband channels | [Labsheets/av343_labsheet6_1.pdf Labsheet 6 (Part 1)] \n[Labsheets/av343_labsheet6_2.pdf Labsheet 6 (Part 2)] \n[Labsheets/channel_modelling.zip Files for Part 1] \n[Labsheets/bask_bpsk_moddemod.zip Files for Part 2] |  ||
 7 | 15-03-2019,22-03-2019 | Error performance of digital Communication over baseband and passband channels | [Labsheets/av343_labsheet7.pdf Labsheet 7] |  ||
-8 | 23-03-2019,23-03-2019 | ISI in baseband and passband channels, Pulse-shaping | [Labsheets/av343_labsheet8.pdf Labsheet 8]\n[Labsheets/lab8.tar.gz Matlab files] |  ||
+8 | 23-03-2019,23-03-2019 | ISI in baseband and passband channels, Pulse-shaping | [Labsheets/av343_labsheet8.pdf Labsheet 8]\n[Labsheets/lab8.tar.bz2 Matlab files] |  ||
 ~~~
 
 
