@@ -1,0 +1,30 @@
+\textbf{Baseband communication}
+\begin{enumerate}
+\item Generation of bits: In digital communications, the source is assumed to produce a stream of bits. The bits are usually modelled as an independent and identically distributed random process with the probability of a bit being $1$ being $0.5$. Generate a random sequence of bits of length $N$ (input) satisfying this property. See generate\_frame\_of\_bits.m for hints to do this.
+\item Obtaining the line code: In digital communications, the above bit sequence is then converted to a baseband signal according to the modulation scheme which is used. The baseband signal is obtained by converting $0$ and $1$ into appropriate pulses of duration $T_{b}$. For a bit sequence with $N = 10$, obtain a baseband signal for BASK and BPSK, with $T_{b} = 0.1$ seconds. See generate\_bpsk\_baseband\_signal\_for\_frame.m for hints. Note that all continuous time signals have to be represented by their sampled counterparts.
+\item Plot the power spectrum of the baseband signals for BASK and BPSK but with $N =  1000$. (Hint: carefully think about energy vs. power).
+\item The rest of the tasks has to be done separately for both BASK and BPSK baseband signals.
+\item Simulate sending the baseband signal through an ideal channel with zero propagation delay. See pass\_through\_ideal\_channel.m from channel\_modelling.zip for hints.
+\item At the output of the ideal channel, implement a low pass receive filter followed by a matched filter for the baseband pulse shape that you have used. See rx\_frontend\_filter\_baseband.m and matched\_filter\_rectangular.m for hints.
+\item Obtain samples from the output of the matched filter; note that since an ideal channel is used, these samples can be taken at multiples of the bit times.
+\item Implement a decision making device - a thresholder that will convert the samples to 0 or 1 based on whether your baseband signal is for BASK or BPSK.
+\end{enumerate}
+
+\myhrule 
+\noindent
+\textbf{Passband communication}
+\begin{enumerate}
+\item Generate a sequence of bits with $N = 10$ as in Task 1 for baseband communication.
+\item Generate the baseband signal for the above sequence of bits corresponding to both BASK and BPSK as in Task 2 for baseband communication.
+\item The rest of the tasks have to be done for both BASK and BPSK if not explicitly mentioned.
+\item Plot the power spectrum of the baseband signal.
+\item Modulate the baseband signal using a carrier of frequency $50$Hz. See modulate\_baseband\_signal.m for hints.
+\item Plot the power spectrum of the modulated signal.
+\item Simulate sending the modulated signal through an ideal passband channel with zero propagation delay.
+\item At the output of a channel implement a passband receive filter with a passband corresponding to the bandwidth of the signal that you are sending through the channel. See rx\_frontend\_filter\_passband.m.
+\item Implement a coherent demodulator for both BASK and BPSK. Plot the spectrum of the output of the coherent demodulator for both cases. See demodulate\_coherent\_bpsk.m.
+\item At the output of the demodulator, implement a matched filter for the pulse shape that you have used.
+\item Obtain samples from the output of the matched filter; note that since an ideal channel is used, these samples can be taken at multiples of the bit times.
+\item Implement a decision making device - a thresholder that will convert the samples to 0 or 1 based on whether your baseband signal is for BASK or BPSK.
+\item (Optional): Implement a non-coherent demodulator for BASK.
+\end{enumerate}

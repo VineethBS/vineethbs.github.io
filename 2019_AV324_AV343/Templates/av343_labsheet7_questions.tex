@@ -1,0 +1,32 @@
+In this labsheet you will study the bit error rate performance of digital communication over ideal (non-ISI) baseband and passband channels under the assumption of perfect frame and symbol (or bit) synchronization.
+
+\myhrule
+\noindent
+\textbf{Error performance for baseband communication}
+\begin{enumerate}
+\item For this part, you have to use the code from the last labsheet. Note that in the last labsheet you would have implemented the following:
+\begin{enumerate}
+\item Generated a random sequence of bits of length $N$ (input).
+\item Obtained the sampled version of the line code using rectangular pulses (assume BPSK baseband signal)
+\item Simulated sending the baseband signal through an ideal channel with zero propagation delay. 
+\item At the output of the ideal channel, implemented a low pass receive filter followed by a matched filter for the baseband pulse shape that you have used. 
+\item Obtained samples from the output of the matched filter; note that since an ideal channel is used, these samples can be taken at multiples of the bit times.
+\item Implemented a decision making device - a thresholder that will convert the samples to 0 or 1 based on whether your baseband signal is for BASK or BPSK.
+\end{enumerate}
+\item Modify your code so that the channel introduces additive white Gaussian noise with variance $\sigma^2$ and an attenuation of $g$.
+\item Find out the bit error rate - which is the fraction of bits which are detected in error. The bit error rate should be obtained for the simulation of the transmission of a large number of bits, say 1000. Please note that you have to compare the bits that are received with the bits that are sent in order to compute this bit error rate.
+\item Plot the bit error rate as a function of the noise-variance. For making this plot, you have to consider different values of the noise variance. For each value of the noise variance, generate the bit error rate value for 1000 bits, 10 times. Take the average of the 10 bit error rates as the bit error rate for that noise variance. Repeat for all values of the noise variance.
+\item Can you derive the probability of error for this system? Write down a derivation for the probability of error. What is the SNR at the sampling instant? How will you find out the noise variance? Compare your analytical result with that obtained from experiment.
+\end{enumerate}
+
+\myhrule
+\noindent
+\textbf{Error performance for passband communication}
+\begin{enumerate}
+\item In this task you have to use the code from the last lab which was used for setting up the passband digital communication simulation. Please use the code that you have made for BPSK here.
+\item In the last lab you had used a channel which was ideal (non-ISI) with no noise. Your first task is to modify the channel to introduce additive white Gaussian noise with variance $\sigma^{2}$.
+\item As in the case of the baseband communication problem above, obtain the bit error rate which is the fraction of bits in error. Do this first for a variance of $1$. The bit error rate should be obtained for the simulation of the transmission of a large number of bits, say 1000. Please note that you have to compare the bits that are received with the bits that are sent in order to compute this bit error rate.
+\item Plot the bit error rate as a function of the noise-variance. For making this plot, you have to consider different values of the noise variance. For each value of the noise variance, generate the bit error rate value for 1000 bits, 10 times. Take the average of the 10 bit error rates as the bit error rate for that noise variance. Repeat for all values of the noise variance.
+\item Can you derive the probability of error for this system? Write down a derivation for the probability of error. What is the SNR at the sampling instant? How will you find out the noise variance? Compare your analytical result with that obtained from experiment.
+\end{enumerate}
+

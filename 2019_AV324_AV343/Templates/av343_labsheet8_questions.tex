@@ -1,0 +1,50 @@
+\textbf{Intersymbol interference - baseband channels}
+\begin{enumerate}
+\item We will study and visualize the effect of intersymbol interference (ISI) using the baseband channel models developed in Labsheet 6 (Chapter \ref{chapter:channel_models} in the lab manual). 
+\item Consider the baseband channel modelled as a low pass filter. We will investigate what happens to a baseband waveform as it passes through a low pass or baseband channel.
+\item We will use a sampling frequency of $100$ Hz for this task.
+\item Use a low pass filter with a passband edge of $10$ Hz with a passband gain of $1$ to model the channel. Obtain and plot the magnitude spectrum of the channel.
+\item Generate a baseband BPSK signal $b(t)$ corresponding to a random sequence of 100 bits for $T_{b} = 0.1s$.
+\item Plot the eye diagram of this baseband BPSK signal. You should observe that this is the eye diagram of a signal without ISI.
+\item Pass the baseband BPSK signal through the channel model and plot the eye diagram of the channel output. Comment on what you have observed.
+\item Plot the eye diagrams for $T_{b} = 0.05$ and $T_{b} = 0.2$. Comment on your observations.
+\item Suppose the channel output is passed through a matched filter for the case of $T_{b} = 0.1$. Plot the eye diagram of the matched-filtered received signal. What differences do you observe?
+\end{enumerate}
+
+\myhrule
+\noindent
+\textbf{Intersymbol interference - passband channels}
+\begin{enumerate}
+\item Consider the passband channel modelled as a band-pass filter. We will investigate what happens to a baseband waveform as it is modulated, passed through the passband channel, and demodulated.
+\item We will use a sampling frequency of $1 kHz$ for this task.
+\item Use a bandpass filter with a center frequency of $100 Hz$, with a one-sided bandwidth of $20 Hz$ to model the passband channel. Obtain and plot the magnitude response of the channel.
+\item Generate a baseband BPSK signal as in the section above and modulate it and pass through the channel. Demodulate the channel output and plot the eye diagram of the demodulated channel output.
+\item Comment on whether there are any fundamental differences between nature of ISI for passband and baseband communication.
+\end{enumerate}
+
+\myhrule
+\noindent
+\textbf{Pulse shaping}
+\begin{enumerate}
+\item Since we consider ISI at baseband, we will only look at baseband channels for the rest of this labsheet.
+\item We will use a sampling frequency of $100$ Hz for this task.
+\item Generate a baseband BPSK signal $b_{r}(t)$ corresponding to a random sequence of 1000 bits for $T_{b} = 0.1s$. Note that this baseband BPSK signal should be generated using the rectangular pulse shape.
+\item Generate a baseband BPSK signal $b_{s}(t)$ corresponding to the same random sequence of bits used above, but using the sinc pulse shape. 
+  \[AT_{b} \frac{sin\big(\pi \frac{t}{T_{b}}\big)}{t}\]
+Note that the sinc pulse shape needs to be truncated to duration of $5T_{b}$ so that the truncated pulse shape is symmetric.
+
+\item Generate a baseband BPSK signal $b_{c}(t)$ corresponding to the same random sequence of bits used above, but using the raised cosine pulse shape. 
+  \[ AT_{b} \frac{sin\big(\pi \frac{t}{T_{b}}\big)}{t} \frac{cos\big(\pi \alpha \frac{t}{T_{b}}\big)}{\big(1 - \big(2\alpha \frac{t}{Tb}\big)^{2}\big)}.\]
+Note that the raised cosine pulse shape needs to be truncated to duration of $5T_{b}$ so that the truncated pulse shape is symmetric.
+
+\item Plot the power spectral densities of the signals $b_{r}(t), b_{s}(t)$, and $b_{c}(t)$. Comment on the differences in the three spectra.
+\item Plot the eye diagrams of $b_{r}(t), b_{s}(t)$, and $b_{c}(t)$. Comment on the differences and main features of each eye diagram.
+\item Plot the spectra and eye diagrams of $b_{c}(t)$ for different values of $\alpha$. What do you observe?
+
+\item Generate a baseband BPSK signal $b_{rc}(t)$ using the square root raised cosine pulse shape. Obtain the power spectral density and eye diagram for this pulse shape.
+
+\item For each of the signals $b_{r}(t), b_{s}(t), b_{c}(t)$, and $b_{rc}(t)$ obtain the channel output when the respective baseband signals are sent through a baseband channel. Use a low pass filter with a passband edge of $10$ Hz with a passband gain of $1$ to model the channel.
+
+\item Obtain the PSD and eye diagram of the channel output in each of the cases. Compare the bandwidth and eye width properties for each of the pulse shapes for $T_{b} = 0.1, 0.05$ and $0.2$.
+
+\end{enumerate}
