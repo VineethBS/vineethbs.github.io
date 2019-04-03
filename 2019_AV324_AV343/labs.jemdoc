@@ -18,7 +18,16 @@
 - The latex file you should use for preparing the lab report can be downloaded from [Templates/lab_template.tex here].
 ~~~
 
-== Mini projects and Main project 
+== Final project
+~~~
+- The final project will start on April 4th and 5th for the two lab batches.
+- The project should be done by teams with 3 members each. The members shall be chosen in roll-number order.
+- The project details can be found in this [Projects/finalproject.pdf file].
+- The project needs this [Projects/dataset.mat dataset].
+- Final project evaluation would be done on April 13th; teams can show the project implementation and get their projects evaluated on April 11th and 12th as well.
+~~~
+
+== Mini projects
 ~~~
 {}{table}{LabSchedule}
 No | Due Date | Project Details ||
