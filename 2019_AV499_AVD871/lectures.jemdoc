@@ -58,8 +58,8 @@ No | Date | Topic | Homework\/Assignments ||
 34 | 05-04-2019 | n-step TD, lambda-returns, and TD(lambda), TD(lambda) with eligibility traces | ||
 35 | 06-04-2019 | Tabular to value function approximation methods | ||
 36 | 06-04-2019 | Policy approximation and policy gradient - REINFORCE | ||
-37 | 08-04-2019 | RL Demonstration 1 & Monte Carlo review | [Demonstrations/Example-1.tar.bz2 Example 1 (Queueing) ||
-38 | 11-04-2019 | RL Demonstration 2 | [Demonstrations/Example-2.tar.bz2 Example 2 (Q-learning question) ||
+37 | 08-04-2019 | RL Demonstration 1 & Monte Carlo review | [Demonstrations/Example-1.tar.bz2 Example 1 (Queueing)] ||
+38 | 11-04-2019 | RL Demonstration 2 | [Demonstrations/Example-2.tar.bz2 Example 2 (Q-learning question)] ||
 ~~~
 
 
