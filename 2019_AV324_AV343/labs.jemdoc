@@ -25,6 +25,7 @@
 - The project details can be found in this [Projects/finalproject.pdf file].
 - The project needs this [Projects/dataset.mat dataset].
 - Final project evaluation would be done on April 13th; teams can show the project implementation and get their projects evaluated on April 11th and 12th as well.
+- The dataset used for final project evaluation is [Projects/finaleval1_dataset.mat here]. Because of github file size limits, this file contains only the first 5 million samples.
 ~~~
 
 == Mini projects
