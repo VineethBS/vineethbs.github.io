@@ -1,5 +1,39 @@
 # jemdoc: menu{menu}{index.html}
 
-= AV314 - Communication Systems I (July - November 2019)
+= AV314 - Communication Syistems I (July - November 2019)
+
 ~~~
+== Important announcements regarding the course (22-07-2019)
+- Attendance according to institute rules 
+- Deadline extensions upto 10 working days
+- Assignment submission will be via googleforms (links will be put up)
+- Please refer to this webpage for updates regularly (after every class)
+- Please contact me by email/phone
+~~~
+
+~~~
+== References (22-07-2019)
+- *The primary source for study are lecture notes. Please attend classes and take your own lecture notes*.
+- [http://www.ece.ucsb.edu/wcsl/Publications/intro_comm_systems_madhow_jan2014b.pdf Prof. Upamanyu Madhow's Introduction to Communication Systems]
+- [https://archive.org/details/PrinciplesOfCommunicationSystemsByTaubAndSchilling/page/n0 Taub and Schilling's Principles of Communication Systems]
+- B.P. Lathi, Modern Digital and Analog Communication
+- John G Proakis and M. Salehi, Communication System Engineering
+- R.E. Ziemer and W.H. Tranter, Principles of Communications
+- Simon Haykin, Communication Systems
+~~~
+
+~~~
+== Course syllabus (22-07-2019)
+- Fundamental of communication systems, signals and information, system block diagram, performance metrics and data rate limits. Review of Fourier series and Transforms – Energy/Power Spectral Density.
+- Introduction to carrier modulation - Amplitude modulation, AM spectrum, power relations, double sideband suppressed carrier (DSBSC) and single sideband modulation (SSB) schemes, DSBSC/SSBSC spectrum, Vestigial sideband modulation and spectrum. Generation of AM signals, modulators and transmitters, product modulators, square-law modulators and balanced modulators. Frequency translation and frequency division multiplexing, Propagation characteristics of AM signals.
+- Frequency modulation (FM), Narrowband FM, Wideband FM, FM spectrum, Transmission bandwidth, Generation of FM signals: direct and indirect methods. Phase modulation- relationship between FM and PM signals. Radio Receivers - TRF and super-heterodyne receivers, Image frequency, Intermediate frequency (IF), Automatic gain control. AM demodulation - coherent detection, envelope (non-coherent) detection of AM signals, DSB-SC and SSB demodulation. FM demodulation - Basic FM demodulators, Amplitude limiting, ratio detector, PLL based FM detection, Pre-emphasis and de-emphasis in FM
+~~~
+
+~~~
+== Course evaluation (22-07-2019)
+- 3 credits course 
+- Quiz 1 and 2 - 15 + 15 marks = 30 marks
+- Final exam - 50 marks
+- Internal evaluation - Class tests - 10 marks
+- Internal evaluation - Assignments - 10 marks
 ~~~

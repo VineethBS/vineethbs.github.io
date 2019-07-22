@@ -1,9 +1,5 @@
 # jemdoc: menu{menu}{lectures.html}
 
-== Textbook
-- [http://www.ece.ucsb.edu/wcsl/Publications/intro_comm_systems_madhow_jan2014b.pdf Prof. Upamanyu Madhow's Introduction to Communication Systems]
-- [https://archive.org/details/PrinciplesOfCommunicationSystemsByTaubAndSchilling/page/n0 Taub and Schilling's Principles of Communication Systems]
-
 == Lecture Schedule
 ~~~
 {}{table}{LectureSchedule}
