@@ -1,5 +1,40 @@
 # jemdoc: menu{menu}{index.html}
 
 = AVD612 - Mathematical methods for signal processing (July - November 2019)
+
 ~~~
+== Important announcements regarding the course (31-07-2019)
+- Attendance according to institute rules 
+- Deadline extensions upto 10 working days
+- Assignment submission will be via googleforms (links will be put up)
+- Please refer to this webpage for updates regularly (after every class)
+- Please contact me by email/phone
+~~~
+
+~~~
+== References and Textbooks (31-07-2019)
+- Introduction to probability - Bertsekas and Tsitsiklis, Athena, 2008
+- Probability and Random processes for Electrical Engineers, Leon Garcia Addison Wesley, 2nd edition, 1994
+- Probability and Random Processes, Geoffrey Grimmett, David Stirzaker, 3rd Edition, Oxford University Press,2001.
+- Probability and Stochastic Process, Roy D Yates, David J Goodman, 2nd edition Wiley, 2010
+- Introduction to Communication Systems, Simon Haykin
+- Introduction to Communication Systems, Upamanyu Madhow
+- Introduction to linear algebra - Gilbert Strang, SIAM, 2016.
+- Linear algebra with applications, Jim Hefferon
+~~~
+
+~~~
+== Course Syllabus (31-07-2019)
+- There are two modules in this course: I) Probability and random processes, II) Linear algebra
+- Review of Probability: Basic set theory and set algebra, basic axioms of probability, Conditional Probability, Random variables ‐ PDF/PMF/CDF ‐ Properties, Bayes theorem/Law of total probability, random vectors ‐ marginal/joint/conditional density functions, transformation of Random Variables, characteristic/moment generating functions, Random sums of Random variables, Law of Large numbers (strong and Weak), Limit theorems ‐ convergence types, Inequalities ‐ Chebyshev/Markov/Chernoff bounds. Random processes: classification of random processes, wide sense stationary processes, autocorrelation function and power spectral density and their properties. Examples of random process models - Gaussian/Markov Random process, Random processes through LTI systems.
+- Vectors: Representation and Dot products, Matrices: Matrix Multiplication, Transposes, Inverses, Gaussian Elimination, factorization, rank of a matrix, Vector spaces: Column and row spaces, Solving Ax=0 and Ax=b, Independence, basis, dimension, linear transformations, Orthogonality: Orthogonal vectors and subspaces, projection and least squares, Gram-Schmidt orthogonalization, Determinants: Determinant formula, cofactors, inverses and volume, Eigenvalues and Eigenvectors: characteristic polynomial, Diagonalization, Hermitian and Unitary matrices, Spectral theorem, Change of basis, Positive definite matrices and singular value decomposition, Linear transformations
+~~~
+
+~~~
+== Course evaluation (31-07-2019)
+- 3 credits course 
+- Quiz 1 and 2 - 15 + 15 marks = 30 marks
+- Final exam - 50 marks
+- Internal evaluation - Class tests - 10 marks
+- Internal evaluation - Assignments - 10 marks
 ~~~

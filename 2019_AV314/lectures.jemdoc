@@ -4,7 +4,11 @@
 ~~~
 {}{table}{LectureSchedule}
 Number | Date | Topic | Homework\/Assignments ||
-1 | 22-07-2019 | Introduction - Fundamental problem of communication |  ||
+1 | 22-07-2019 | Introduction - Fundamental problem of communication | [Lectures/ClassLecture_1.pdf Lecture 1] ||
+2 | 24-07-2019 | Channels as transformations and the analog communication problem | [Lectures/ClassLecture_2.pdf Lecture 2] ||
+3 | 29-07-2019 | Channel modelling - an example | [Lectures/ClassLecture_3.pdf Lecture 3] ||
+4 | 30-07-2019 | Channel modelling using LTI systems - an example | [Lectures/ClassLecture_4.pdf Lecture 4] ||
+5 | 31-07-2019 | Wired and wireless channels, a simple communication problem and its solution | [Lectures/ClassLecture_5.pdf Lecture 5] ||
 ~~~
 
 
