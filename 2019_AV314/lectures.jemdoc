@@ -9,10 +9,12 @@ Number | Date | Topic | Notes\/Homework\/Assignments ||
 3 | 29-07-2019 | Channel modelling - an example | [Lectures/ClassLecture_3.pdf Lecture 3] ||
 4 | 30-07-2019 | Channel modelling using LTI systems - an example | [Lectures/ClassLecture_4.pdf Lecture 4] ||
 5 | 31-07-2019 | Wired and wireless channels, a simple communication problem and its solution | [Lectures/ClassLecture_5.pdf Lecture 5] ||
-6 | 05-08-2019 | Baseband communication problem and solution | ||
-7 | 06-08-2019 | Bandwidth relationships for baseband communiction | ||
-8 | 13-08-2019 | Equalizer design for baseband channels | [Assignments/Assignment_1.pdf Assignment 1] ||
-9 | 13-08-2019 | Passband channels and modulation | [ProgrammingAssignments/Programming_Assignment_1.pdf Programming Assignment 1],\n [ProgrammingAssignments/identity_channel.m identity_channel.m] [ProgrammingAssignments/channel_1.p channel_1.p] ||
+6 | 05-08-2019 | Baseband communication problem and solution | [Lectures/ClassLecture_6.pdf Lecture 6] ||
+7 | 06-08-2019 | Bandwidth relationships for baseband communiction | [Lectures/ClassLecture_7.pdf Lecture 7] ||
+8 | 13-08-2019 | Equalizer design for baseband channels | [Lectures/ClassLecture_8.pdf Lecture 8]\n[Assignments/Assignment_1.pdf Assignment 1] ||
+9 | 13-08-2019 | Passband channels and modulation | [Lectures/ClassLecture_9.pdf Lecture 9]\n[ProgrammingAssignments/Programming_Assignment_1.pdf Programming Assignment 1],\n [ProgrammingAssignments/identity_channel.m identity_channel.m] [ProgrammingAssignments/channel_1.p channel_1.p] ||
+10 | 14-08-2019 | Double sideband suppressed carrier and Large carrier ampltitude modulation | [Lectures/ClassLecture_10.pdf Lecture 10] ||
+11 | 14-08-2019 | Methods for DSBSC and AM modulation and demodulation | [Lectures/ClassLecture_11.pdf Lecture 11]  ||
 ~~~
 
 === Review assignments for signals and systems
