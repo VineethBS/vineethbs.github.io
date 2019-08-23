@@ -3,7 +3,14 @@
 = AV314 - Communication Systems I (July - November 2019)
 
 ~~~
-== Submission of programming assignment 1
+== Lecture notes, Assignment 2, and demonstrations uploaded (23-08-2019)
+- Lecture notes for lectures 12, 14, and 15 are uploaded, check the lectures link in the side bar
+- Assignment 2 has been uploaded - please do this before the mid term
+- Matlab simulation files have been added for DSBSC, Plain-AM, and SSB - use these to get a feel about these different schemes
+~~~
+
+~~~
+== Submission of programming assignment 1 (20-08-2019)
 - Please make a report (pdf) of what you have done for programming assignment 1
 - Zip together the report pdf, any matlab code into a single file and name it NAME_SCCODE_ProgrammingAssignment1.zip (for example Vineeth_SC00D00_ProgrammingAssignment1.zip) and upload using the link below
 - Google forms link for uploading programming assignment 1 is [https://forms.gle/1RQGNDGkq9vWArn2A here]
