@@ -1,6 +1,11 @@
 # jemdoc: menu{menu}{index.html}
 
 = AV314 - Communication Systems I (July - November 2019)
+~~~
+== Lecture notes uploaded (10-09-2019)
+- Lecture notes for lectures 19, 20, and 21 have been uploaded, check the lectures link in the side bar
+- Also play around with the Matlab files demonstrating the FM spectrum to see how the spectrum depends on the modulating signal and modulation parameters
+~~~
 
 ~~~
 == Lecture notes uploaded (02-09-2019)
