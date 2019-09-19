@@ -2,8 +2,9 @@
 
 == Textbooks
 - Introduction to probability - Bertsekas and Tsitsiklis
+- Communication Systems - Simon Haykin
 
-== Lecture Schedule
+== Lecture Schedule (Probability and Random Processes)
 ~~~
 {}{table}{LectureSchedule}
 Number | Date | Topic | Homework\/Assignments ||
@@ -25,6 +26,11 @@ Number | Date | Topic | Homework\/Assignments ||
 16 | 04-09-2019 | Conditional PDF and examples | ||
 17 | 05-09-2019 | Memoryless property of exponential, Independence | ||
 18 | 10-09-2019 | Transformation of random variables, Convolution formula | ||
+19 | 12-09-2019 | Transformation of random variables - Jacobian, Joint Gaussian random variables | ||
+20 | 16-09-2019 | Moment generating functions, Markov and Chebyshev inequalities | ||
+21 | 17-09-2019 | Chernoff inequality, Introduction to random processes, IID random processes | ||
+22 | 18-09-2019 | Finite dimensional distributions, Stationary random processes | ||
+23 | 19-09-2019 | Random processes through systems | ||
 ~~~
 
 
