@@ -26,6 +26,9 @@ Number | Date | Topic | Notes\/Homework\/Assignments ||
 19 | 03-09-2019 | Complex baseband representation of systems | [Lectures/ClassLecture_19.pdf Lecture 19] ||
 20 | 04-09-2019 | Complex baseband filtering, Frequency and Phase modulation | [Lectures/ClassLecture_20.pdf Lecture 20] ||
 21 | 10-09-2019 | Frequency modulation - spectrum | [Lectures/ClassLecture_21.pdf Lecture 21]\n [Lectures/FM_Spectrum.tar.bz2 FM Spectrum in Matlab] ||
+22 | 16-09-2019 | Carson's formula | [Lectures/ClassLecture_22.pdf Lecture 22] ||
+23 | 18-09-2019 | FM spectrum exact analysis, FM modulators and demodulators | [Lectures/ClassLecture_23.pdf Lecture 23] ||
+24 | 19-09-2019 | Complex baseband demodulation of FM, Stereo FM, FM demonstration in GNU radio | [Lectures/ClassLecture_24.pdf Lecture 24] ||
 ~~~
 
 === Review assignments for signals and systems
