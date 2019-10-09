@@ -31,6 +31,10 @@ Number | Date | Topic | Notes\/Homework\/Assignments ||
 24 | 19-09-2019 | Complex baseband demodulation of FM, Stereo FM, FM demonstration in GNU radio | [Lectures/ClassLecture_24.pdf Lecture 24] ||
 25 | 24-09-2019 | Broadcast FM discussion, Tuned radio freq. receivers, Superheterodyning | [Assignments/Assignment_3.pdf Assignment 3]\n[Lectures/ClassLecture_25.pdf Lecture 25] ||
 26 | 25-09-2019 | Superheterodyne receivers | [Lectures/ClassLecture_26.pdf Lecture 26] ||
+27 | 01-10-2019 | Random variables review | [Lectures/ClassLecture_27.pdf Lecture 27] ||
+28 | 03-10-2019 | Random processes, Finite dimensional distributions | [Lectures/ClassLecture_28.pdf Lecture 28] ||
+29 | 04-10-2019 | Structures on FDDs - IID, Stationary, WSS | [Lectures/ClassLecture_29.pdf Lecture 29] ||
+30 | 09-10-2019 | Transformation of random variables and random processes | [Lectures/ClassLecture_30.pdf Lecture 30 (On board)]\n[Assignments/Assignment_4.pdf Assignment 4] ||
 ~~~
 
 === Review assignments for signals and systems
