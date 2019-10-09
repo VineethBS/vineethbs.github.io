@@ -1,6 +1,6 @@
 # jemdoc: menu{menu}{lectures.html}
 
-== Textbooks
+== Textbooks (Probability and Random Processes)
 - Introduction to probability - Bertsekas and Tsitsiklis
 - Communication Systems - Simon Haykin
 
@@ -32,8 +32,25 @@ Number | Date | Topic | Homework\/Assignments ||
 22 | 18-09-2019 | Finite dimensional distributions, Stationary random processes | ||
 23 | 19-09-2019 | Random processes through systems | [Assignments/Assignment_4.pdf Assignment 4]\n[Assignments/Assignment_5.pdf Assignment 5]||
    | 24-09-2019 | Class test + problem review | ||
+24 | 25-09-2019 | Random processes through LTI systems, WSS processes | ||
+25 | 26-09-2019 | Autocorrelation and Spectral relationships | ||
+26 | 01-10-2019 | Gaussian random processes | ||
+   | 03-10-2019 | Problem review session (LLN and CLT) | ||
+   | 04-10-2019 | Problem review session (Power spectrum of digital modulation) | ||
 ~~~
 
+== Textbooks (Linear algebra and applications)
+- Gilbert Strang - Linear algebra and its applications
+- Gilbert Strang - Introduction to linear algebra
+- Boyd and Vandenberghe - Introduction to applied linear algebra
+- Hefferon - Linear algebra
 
+== Lecture Schedule (Linear algebra and applications)
+~~~
+{}{table}{LectureSchedule}
+Number | Date | Topic | Homework\/Assignments ||
+1 | 09-10-2019 | Vectors (review) | Reading from Boyd ||
+2 | 15-10-2019 | Matrices (review) | Reading from Boyd ||
+~~~
 
 
