@@ -37,6 +37,7 @@ Number | Date | Topic | Homework\/Assignments ||
 26 | 01-10-2019 | Gaussian random processes | ||
    | 03-10-2019 | Problem review session (LLN and CLT) | ||
    | 04-10-2019 | Problem review session (Power spectrum of digital modulation) | ||
+
 ~~~
 
 == Textbooks (Linear algebra and applications)
@@ -50,7 +51,14 @@ Number | Date | Topic | Homework\/Assignments ||
 {}{table}{LectureSchedule}
 Number | Date | Topic | Homework\/Assignments ||
 1 | 09-10-2019 | Vectors (review) | Reading from Boyd ||
-2 | 15-10-2019 | Matrices (review) | Reading from Boyd ||
+2 | 15-10-2019 | Matrices (review) | " ||
+3 | 15-10-2019 | Linear functions (review) | " ||
+4 | 17-10-2019 | Linear equations and Matrix multiplication (review) | " ||
+5 | 22-10-2019 | Matrix inverses (review) | " ||
+6 | 23-10-2019 | Gaussian elimination, LU factorization | Reading and problems from Strang ||
+7 | 24-10-2019 | PA = LU factorization, Gauss Jordan method | " ||
+8 | 24-10-2019 | Vector spaces, Column space and Null space of A | " ||
+
 ~~~
 
 
