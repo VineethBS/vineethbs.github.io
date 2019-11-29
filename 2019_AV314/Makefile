@@ -1,2 +1,0 @@
-default:
-	jemdoc *.jemdoc
